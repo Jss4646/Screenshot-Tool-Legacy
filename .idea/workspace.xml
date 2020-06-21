@@ -13,8 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Port from gitbucket">
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="updated port">
+      <change beforePath="$PROJECT_DIR$/bitbucket-pipelines.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,14 +193,7 @@
       <workItem from="1592484929038" duration="7660000" />
       <workItem from="1592577232025" duration="126000" />
       <workItem from="1592778175483" duration="73000" />
-      <workItem from="1592780494023" duration="989000" />
-    </task>
-    <task id="LOCAL-00024" summary="Fixed merging issues.">
-      <created>1585329481015</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1585329481015</updated>
+      <workItem from="1592780494023" duration="1441000" />
     </task>
     <task id="LOCAL-00025" summary="bitbucket-pipelines testing">
       <created>1585330805613</created>
@@ -537,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592780869344</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="updated port">
+      <created>1592781563471</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1592781563471</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +582,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Crawler Works!&#10;&#10;Will crawl a site for any links on the page and add them to the url list" />
     <MESSAGE value="Fixed merging issues." />
     <MESSAGE value="bitbucket-pipelines testing" />
     <MESSAGE value="Cookies can now be set client side" />
@@ -606,7 +606,8 @@
     <MESSAGE value="Can now toggle on an option that will upload a page to confluence containing screenshots taken&#10;https://confluence.pragmatic.agency/display/SCREEN/screenshots+Home" />
     <MESSAGE value="Added config file" />
     <MESSAGE value="Port from gitbucket" />
-    <option name="LAST_COMMIT_MESSAGE" value="Port from gitbucket" />
+    <MESSAGE value="updated port" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated port" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="364" key="#Deployment" timestamp="1586444569949">
@@ -739,10 +740,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="781" y="348" key="SettingsEditor/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1586444639725" />
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1592780871801">
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1592781565422">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592780871801" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592781565422" />
     <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591835986916">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>

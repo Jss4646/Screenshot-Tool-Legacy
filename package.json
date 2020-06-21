@@ -4,8 +4,7 @@
   "description": "A site to help with visual regression by taking screenshots at different screen sizes",
   "main": "index.js",
   "scripts": {
-    "start-server": "node index.js",
-    "start": "cypress run"
+    "start-server": "node index.js"
   },
   "repository": {
     "type": "git",
