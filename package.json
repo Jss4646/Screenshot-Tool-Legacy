@@ -32,7 +32,6 @@
     "wait-on": "^4.0.1"
   },
   "devDependencies": {
-    "puppeteer": "^2.1.1",
-    "cypress": "^4.2.0"
+    "puppeteer": "^2.1.1"
   }
 }
