@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Added perm file for AWS">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitbucket-pipelines.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credentials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/fixtures/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/screenshot-bar-buttons-tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/url-tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/support/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/videos/screenshot-bar-buttons-tests.js.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/videos/url-tests.js.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imgs/back-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imgs/exit-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imgs/expand-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imgs/menu-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imgs/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/misc/loadingBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/misc/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/misc/screenshotInspector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/screenshotOptions/downloadScreenshots.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/screenshotOptions/removeScreenshots.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/screenshotOptions/resolutions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/screenshotOptions/urlList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/urlFunctions/addUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/urlFunctions/crawlUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/urlFunctions/loadUrls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/urlFunctions/takeScreenshots.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/urlFunctions/urlBarHighlighting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/FileSaver.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/progressBar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/resolutionsJson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/bucket-access.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/crawler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/document-screenshots.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/screenshot.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="beanstalk" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Wqfyu3omZtvD2ZV2nlbUrYggni" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="ts.external.directory.path" value="D:\JetBrains\apps\WebStorm\ch-0\201.7223.93\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Pragmatic\QA Tools\visual-regression-site\public\imgs" />
+      <recent name="E:\Pragmatic\QA Tools\visual-regression-site\public\css" />
+      <recent name="E:\Pragmatic\QA Tools\visual-regression-site\public\js\vendor" />
+      <recent name="E:\Pragmatic\QA Tools\visual-regression-site" />
+      <recent name="E:\Pragmatic\QA Tools\visual-regression-site\cypress\integration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Pragmatic\QA Tools\visual-regression-site" />
+      <recent name="E:\Pragmatic\QA Tools\visual-regression-site\public\js\vendor" />
+      <recent name="$PROJECT_DIR$/public/js/screenshotOptions" />
+      <recent name="E:\Pragmatic\QA Tools\public\js" />
+      <recent name="E:\Pragmatic\QA Tools" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start-server">
+    <configuration name="index" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="3000" isV8Legacy="true" restartOnDisconnect="true">
+      <option name="v8Legacy" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="document-screenshots.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="tools/document-screenshots.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Run Tests" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start-server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start-server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Node.js/Chrome.index" />
+      <item itemvalue="Node.js.document-screenshots.js" />
+      <item itemvalue="npm.Run Tests" />
+      <item itemvalue="npm.start-server" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="" />
+      <created>1579275829635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579275829635</updated>
+      <workItem from="1579275830779" duration="392000" />
+      <workItem from="1579277218903" duration="1429000" />
+      <workItem from="1579871759429" duration="4280000" />
+      <workItem from="1579882308012" duration="102000" />
+      <workItem from="1579965998664" duration="732000" />
+      <workItem from="1580063330630" duration="1555000" />
+      <workItem from="1580141747380" duration="23529000" />
+      <workItem from="1580240815860" duration="13805000" />
+      <workItem from="1580380278410" duration="7974000" />
+      <workItem from="1580657782834" duration="9989000" />
+      <workItem from="1580746885461" duration="8753000" />
+      <workItem from="1580863708924" duration="58000" />
+      <workItem from="1580989650055" duration="10468000" />
+      <workItem from="1581078020886" duration="3606000" />
+      <workItem from="1581084602811" duration="4788000" />
+      <workItem from="1581090537087" duration="2105000" />
+      <workItem from="1581093288579" duration="10090000" />
+      <workItem from="1581184933053" duration="2500000" />
+      <workItem from="1581439852555" duration="2538000" />
+      <workItem from="1581689654906" duration="3595000" />
+      <workItem from="1584015826644" duration="600000" />
+      <workItem from="1584051014287" duration="6778000" />
+      <workItem from="1584717204249" duration="2051000" />
+      <workItem from="1584900924550" duration="599000" />
+      <workItem from="1584921529788" duration="2006000" />
+      <workItem from="1585008804816" duration="30000" />
+      <workItem from="1585150285927" duration="144000" />
+      <workItem from="1585317174943" duration="5288000" />
+      <workItem from="1585362401737" duration="646000" />
+      <workItem from="1585408557145" duration="604000" />
+      <workItem from="1585839802970" duration="7657000" />
+      <workItem from="1585914810484" duration="2227000" />
+      <workItem from="1586436390799" duration="4192000" />
+      <workItem from="1586622538987" duration="68000" />
+      <workItem from="1587036636476" duration="6663000" />
+      <workItem from="1587132999817" duration="5510000" />
+      <workItem from="1587225951359" duration="7000" />
+      <workItem from="1588249688016" duration="4165000" />
+      <workItem from="1588332815145" duration="1861000" />
+      <workItem from="1588864924639" duration="1418000" />
+      <workItem from="1588949677432" duration="354000" />
+      <workItem from="1589453902612" duration="2401000" />
+      <workItem from="1589542052557" duration="13641000" />
+      <workItem from="1589667784038" duration="55000" />
+      <workItem from="1590150565448" duration="2284000" />
+      <workItem from="1591188039382" duration="1746000" />
+      <workItem from="1591360003083" duration="23652000" />
+      <workItem from="1591453316468" duration="3387000" />
+      <workItem from="1591460603771" duration="972000" />
+      <workItem from="1591491436356" duration="2116000" />
+      <workItem from="1591564001714" duration="5147000" />
+      <workItem from="1591632760743" duration="13225000" />
+      <workItem from="1591746236097" duration="607000" />
+      <workItem from="1591793272986" duration="16745000" />
+      <workItem from="1591875792855" duration="6688000" />
+      <workItem from="1591981822906" duration="11959000" />
+      <workItem from="1592400210075" duration="10106000" />
+      <workItem from="1592484929038" duration="7660000" />
+      <workItem from="1592577232025" duration="126000" />
+      <workItem from="1592778175483" duration="73000" />
+      <workItem from="1592780494023" duration="324000" />
+    </task>
+    <task id="LOCAL-00023" summary="Fixed merging issues.">
+      <created>1585324556546</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1585324556546</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fixed merging issues.">
+      <created>1585329481015</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1585329481015</updated>
+    </task>
+    <task id="LOCAL-00025" summary="bitbucket-pipelines testing">
+      <created>1585330805613</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1585330805613</updated>
+    </task>
+    <task id="LOCAL-00026" summary="bitbucket-pipelines testing">
+      <created>1585332547599</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1585332547599</updated>
+    </task>
+    <task id="LOCAL-00027" summary="bitbucket-pipelines testing">
+      <created>1585332777600</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1585332777600</updated>
+    </task>
+    <task id="LOCAL-00028" summary="bitbucket-pipelines testing">
+      <created>1585332901690</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1585332901690</updated>
+    </task>
+    <task id="LOCAL-00029" summary="bitbucket-pipelines testing">
+      <created>1585333043385</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1585333043385</updated>
+    </task>
+    <task id="LOCAL-00030" summary="bitbucket-pipelines testing">
+      <created>1585333153002</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1585333153002</updated>
+    </task>
+    <task id="LOCAL-00031" summary="bitbucket-pipelines testing">
+      <created>1585333305348</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1585333305348</updated>
+    </task>
+    <task id="LOCAL-00032" summary="bitbucket-pipelines testing">
+      <created>1585333547628</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1585333547628</updated>
+    </task>
+    <task id="LOCAL-00033" summary="bitbucket-pipelines testing">
+      <created>1585333697175</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1585333697175</updated>
+    </task>
+    <task id="LOCAL-00034" summary="bitbucket-pipelines testing">
+      <created>1585333877545</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1585333877545</updated>
+    </task>
+    <task id="LOCAL-00035" summary="bitbucket-pipelines testing">
+      <created>1585334590778</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1585334590778</updated>
+    </task>
+    <task id="LOCAL-00036" summary="bitbucket-pipelines testing">
+      <created>1585840726839</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1585840726840</updated>
+    </task>
+    <task id="LOCAL-00037" summary="bitbucket-pipelines testing">
+      <created>1585841412642</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1585841412642</updated>
+    </task>
+    <task id="LOCAL-00038" summary="bitbucket-pipelines testing">
+      <created>1585842248931</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1585842248931</updated>
+    </task>
+    <task id="LOCAL-00039" summary="bitbucket-pipelines testing">
+      <created>1585843343723</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1585843343723</updated>
+    </task>
+    <task id="LOCAL-00040" summary="bitbucket-pipelines testing">
+      <created>1585843722930</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1585843722930</updated>
+    </task>
+    <task id="LOCAL-00041" summary="bitbucket-pipelines testing">
+      <created>1585843955531</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1585843955531</updated>
+    </task>
+    <task id="LOCAL-00042" summary="bitbucket-pipelines testing">
+      <created>1585844350866</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1585844350866</updated>
+    </task>
+    <task id="LOCAL-00043" summary="bitbucket-pipelines testing">
+      <created>1585844582222</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1585844582222</updated>
+    </task>
+    <task id="LOCAL-00044" summary="bitbucket-pipelines testing">
+      <created>1585844785060</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1585844785060</updated>
+    </task>
+    <task id="LOCAL-00045" summary="bitbucket-pipelines testing">
+      <created>1585845249661</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1585845249661</updated>
+    </task>
+    <task id="LOCAL-00046" summary="bitbucket-pipelines testing">
+      <created>1585845306844</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1585845306844</updated>
+    </task>
+    <task id="LOCAL-00047" summary="bitbucket-pipelines testing">
+      <created>1585845669134</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1585845669134</updated>
+    </task>
+    <task id="LOCAL-00048" summary="bitbucket-pipelines testing">
+      <created>1585845891887</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1585845891887</updated>
+    </task>
+    <task id="LOCAL-00049" summary="bitbucket-pipelines testing">
+      <created>1585846747127</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1585846747127</updated>
+    </task>
+    <task id="LOCAL-00050" summary="bitbucket-pipelines testing">
+      <created>1585847225995</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1585847225995</updated>
+    </task>
+    <task id="LOCAL-00051" summary="bitbucket-pipelines testing">
+      <created>1585916015048</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1585916015049</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Cookies can now be set client side">
+      <created>1588266593134</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1588266593140</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Can now set default resolution checklist">
+      <created>1589557003170</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1589557003170</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Added comments">
+      <created>1589584809103</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1589584809103</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Added sitemap crawler">
+      <created>1590753082686</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1590753082687</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Updated screenshot path">
+      <created>1590760063565</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1590760063565</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Fixed checkbox bug">
+      <created>1591188307283</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1591188307284</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Added more folder support for saving">
+      <created>1591363858115</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1591363858115</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Changed to jpg">
+      <created>1591387311292</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1591387311292</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Added basic folder functionality">
+      <created>1591406707232</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1591406707232</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Fixed folder bug">
+      <created>1591411990552</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1591411990552</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Add hide folder functionality">
+      <created>1591457888631</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1591457888631</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Optimized screenshot scrolling">
+      <created>1591459131906</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1591459131906</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Added styling to small pages">
+      <created>1591492354379</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1591492354379</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Fixed button position">
+      <created>1591492763277</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1591492763278</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Added get screenshots endpoint">
+      <created>1591828876044</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1591828876045</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Screenshots now save to S3">
+      <created>1591832674057</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1591832674057</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Removed testing endpoint">
+      <created>1591833963664</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1591833963664</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Fixed CLI endpoint bug with cookies">
+      <created>1591835258903</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1591835258903</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Can now toggle on an option that will upload a page to confluence containing screenshots taken&#10;https://confluence.pragmatic.agency/display/SCREEN/screenshots+Home">
+      <created>1592517683369</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1592517683369</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Added config file">
+      <created>1592583524999</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1592583525000</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="adjusted css to accommodate larger screen&#10;&#10;Added more screen resolutions" />
+    <MESSAGE value="Crawler Works!&#10;&#10;Will crawl a site for any links on the page and add them to the url list" />
+    <MESSAGE value="Fixed merging issues." />
+    <MESSAGE value="bitbucket-pipelines testing" />
+    <MESSAGE value="Cookies can now be set client side" />
+    <MESSAGE value="Can now set default resolution checklist" />
+    <MESSAGE value="Added comments" />
+    <MESSAGE value="Added sitemap crawler" />
+    <MESSAGE value="Updated screenshot path" />
+    <MESSAGE value="Fixed checkbox bug" />
+    <MESSAGE value="Added more folder support for saving" />
+    <MESSAGE value="Changed to jpg" />
+    <MESSAGE value="Added basic folder functionality" />
+    <MESSAGE value="Fixed folder bug" />
+    <MESSAGE value="Add hide folder functionality" />
+    <MESSAGE value="Optimized screenshot scrolling" />
+    <MESSAGE value="Added styling to small pages" />
+    <MESSAGE value="Fixed button position" />
+    <MESSAGE value="Added loading bar" />
+    <MESSAGE value="Added get screenshots endpoint" />
+    <MESSAGE value="Screenshots now save to S3" />
+    <MESSAGE value="Removed testing endpoint" />
+    <MESSAGE value="Fixed CLI endpoint bug with cookies" />
+    <MESSAGE value="Can now toggle on an option that will upload a page to confluence containing screenshots taken&#10;https://confluence.pragmatic.agency/display/SCREEN/screenshots+Home" />
+    <MESSAGE value="Added config file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added config file" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="872" y="364" key="#Deployment" timestamp="1586444569949">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="872" y="364" key="#Deployment/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1586444569949" />
+    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592577356384">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592577356384" />
+    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591890466928" />
+    <state x="1044" y="508" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592583485273">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1044" y="508" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592583485273" />
+    <state x="1010" y="451" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591634857295">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1010" y="451" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1591634857295" />
+    <state x="1027" y="561" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591404983780">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1027" y="561" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1591404983780" />
+    <state x="887" y="181" width="1310" height="1144" key="CommitChangelistDialog2" timestamp="1585916014090">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="887" y="181" width="1310" height="1144" key="CommitChangelistDialog2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1585916014090" />
+    <state x="2488" y="673" width="2048" height="1155" maximized="true" key="DiffContextDialog" timestamp="1591830288181">
+      <screen x="2560" y="497" width="1920" height="1050" />
+    </state>
+    <state x="2488" y="673" width="2048" height="1155" maximized="true" key="DiffContextDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1591830288181" />
+    <state x="1060" y="461" key="FileChooserDialogImpl" timestamp="1592520191932">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1060" y="461" key="FileChooserDialogImpl/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592520191932" />
+    <state x="1060" y="461" key="FileChooserDialogImpl/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591890464315" />
+    <state width="2539" height="341" key="GridCell.Tab.0.bottom" timestamp="1592520196659">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="341" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592520196659" />
+    <state width="2539" height="445" key="GridCell.Tab.0.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
+    <state width="2539" height="341" key="GridCell.Tab.0.center" timestamp="1592520196659">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="341" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592520196659" />
+    <state width="2539" height="445" key="GridCell.Tab.0.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
+    <state width="2539" height="341" key="GridCell.Tab.0.left" timestamp="1592520196659">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="341" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592520196659" />
+    <state width="2539" height="445" key="GridCell.Tab.0.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
+    <state width="2539" height="341" key="GridCell.Tab.0.right" timestamp="1592520196659">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="341" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592520196659" />
+    <state width="2539" height="445" key="GridCell.Tab.0.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
+    <state width="2539" height="609" key="GridCell.Tab.1.bottom" timestamp="1592410398220">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="609" key="GridCell.Tab.1.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592410398220" />
+    <state width="2539" height="445" key="GridCell.Tab.1.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970912" />
+    <state width="2539" height="609" key="GridCell.Tab.1.center" timestamp="1592410398219">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="609" key="GridCell.Tab.1.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592410398219" />
+    <state width="2539" height="445" key="GridCell.Tab.1.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970912" />
+    <state width="2539" height="609" key="GridCell.Tab.1.left" timestamp="1592410398219">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="609" key="GridCell.Tab.1.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592410398219" />
+    <state width="2539" height="445" key="GridCell.Tab.1.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970912" />
+    <state width="2539" height="609" key="GridCell.Tab.1.right" timestamp="1592410398220">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="609" key="GridCell.Tab.1.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592410398220" />
+    <state width="2539" height="445" key="GridCell.Tab.1.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970912" />
+    <state width="2539" height="609" key="GridCell.Tab.2.bottom" timestamp="1592410398220">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="609" key="GridCell.Tab.2.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592410398220" />
+    <state width="2539" height="445" key="GridCell.Tab.2.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970913" />
+    <state width="2539" height="609" key="GridCell.Tab.2.center" timestamp="1592410398220">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="609" key="GridCell.Tab.2.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592410398220" />
+    <state width="2539" height="445" key="GridCell.Tab.2.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970913" />
+    <state width="2539" height="609" key="GridCell.Tab.2.left" timestamp="1592410398220">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="609" key="GridCell.Tab.2.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592410398220" />
+    <state width="2539" height="445" key="GridCell.Tab.2.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970912" />
+    <state width="2539" height="609" key="GridCell.Tab.2.right" timestamp="1592410398220">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="609" key="GridCell.Tab.2.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592410398220" />
+    <state width="2539" height="445" key="GridCell.Tab.2.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970913" />
+    <state width="2539" height="609" key="GridCell.Tab.3.bottom" timestamp="1592410398220">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="609" key="GridCell.Tab.3.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592410398220" />
+    <state width="2539" height="445" key="GridCell.Tab.3.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970913" />
+    <state width="2539" height="609" key="GridCell.Tab.3.center" timestamp="1592410398220">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="609" key="GridCell.Tab.3.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592410398220" />
+    <state width="2539" height="445" key="GridCell.Tab.3.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970913" />
+    <state width="2539" height="609" key="GridCell.Tab.3.left" timestamp="1592410398220">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="609" key="GridCell.Tab.3.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592410398220" />
+    <state width="2539" height="445" key="GridCell.Tab.3.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970913" />
+    <state width="2539" height="609" key="GridCell.Tab.3.right" timestamp="1592410398220">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="609" key="GridCell.Tab.3.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592410398220" />
+    <state width="2539" height="445" key="GridCell.Tab.3.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970913" />
+    <state x="248" y="128" key="MergeDialog" timestamp="1585324187233">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="248" y="128" key="MergeDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1585324187233" />
+    <state x="992" y="421" key="MultipleFileMergeDialog" timestamp="1585324190402">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="992" y="421" key="MultipleFileMergeDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1585324190402" />
+    <state x="1126" y="416" key="RollbackChangesDialog" timestamp="1591188094225">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1126" y="416" key="RollbackChangesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1591188094225" />
+    <state x="781" y="348" key="SettingsEditor" timestamp="1586444639725">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="781" y="348" key="SettingsEditor/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1586444639725" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1592779880424">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592779880424" />
+    <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591835986916">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1591835986916" />
+    <state x="988" y="393" width="583" height="624" key="find.popup" timestamp="1592409260755">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="988" y="393" width="583" height="624" key="find.popup/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592409260755" />
+    <state x="1061" y="418" key="git4idea.branch.GitSmartOperationDialog" timestamp="1592779277658">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1061" y="418" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592779277658" />
+    <state x="975" y="600" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591834278143">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="975" y="600" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1591834278143" />
+    <state x="936" y="333" key="run.anything.popup" timestamp="1592411133602">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="936" y="333" key="run.anything.popup/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592411133602" />
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1592409137709">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592409137709" />
+  </component>
+</project>

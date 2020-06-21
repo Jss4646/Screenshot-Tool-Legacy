@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Screenshot Tool</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="title-bar">
+    <img class="menu-button" src="imgs/menu-icon.png">
+    <h1 class="title">Visual Regression Screenshot Tool</h1>
+</div>
+
+<div class="menu-container">
+    <div class="menu">
+        <div class="settings-header">
+            <div></div>
+            <h1>Settings</h1>
+            <img class="menu-exit-button" src="imgs/exit-icon.png">
+        </div>
+        <div class="cookie-container">
+            <h3>Cookies</h3>
+            <textarea></textarea>
+        </div>
+        <div class="default-res-container">
+            <h3>Default Resolutions List</h3>
+            <div class="default-res-list">
+
+            </div>
+        </div>
+        <div class="misc">
+            <div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="url-options">
+    <h2 class="url-title">Site URL</h2>
+    <input class="url" type="text" placeholder="https://examplesite.com">
+    <div class="submit-buttons">
+        <input type="submit" id="take-screenshot" value="Take Screenshot">
+        <input type="submit" id="crawl-url" value="Crawl URL">
+        <input type="submit" id="load-urls" value="Load URLS">
+        <input type="file" accept=".txt" id="file" style="display: none">
+        <input type="submit" id="add-url" value="Add URL">
+    </div>
+    <div class="loading-bar" id="progress-bar"></div>
+    <h3 class="status opacity-hidden">Nothing is happening!</h3>
+</div>
+<div class="screenshot-tools">
+    <div class="screenshot-carousel">
+    </div>
+    <div>
+        <button class="download-screenshots" disabled >Download Screenshots</button>
+        <button class="remove-screenshots" disabled >Remove Screenshots</button>
+    </div>
+</div>
+
+<div class="large-screenshot-cover">
+    <div class="large-screenshot-content">
+        <img src="imgs/back-button.png" alt="Screenshot" class="return-button">
+        <div class="large-screenshot-container"><img src="" alt="screenshot" class="large-screenshot"></div>
+    </div>
+</div>
+
+<div class="screenshot-options-container">
+    <h2 class="screenshot-options-title">Screenshot Options</h2>
+    <div class="screenshot-options">
+        <div class="urls">
+            <h3 class="urls-title">URLS</h3>
+            <ul class="url-list"></ul>
+            <div>
+                <button class="take-screenshots" disabled>Take Screenshots</button>
+                <button class="clear-urls" disabled>Clear URLS</button>
+            </div>
+            <div>
+                <input type="checkbox" id="create-doc"><span>Create Doc</span>
+            </div>
+        </div>
+        <div class="screen-resolutions">
+            <h3 class="screen-resolutions-title">Screen Resolutions</h3>
+            <div class="resolution-list"></div>
+            <div class="select-buttons">
+                <button class="select-all-button">Select All</button>
+                <button class="deselect-all-button">Deselect All</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/vendor/jszip.min.js"></script>
+<script src="js/vendor/FileSaver.min.js"></script>
+<script src="js/vendor/progressBar.min.js"></script>
+
+<script src="js/global.js"></script>
+<script src="js/screenshotOptions/resolutions.js" type="module"></script>
+<script src="js/urlFunctions/urlBarHighlighting.js" type="module"></script>
+<script src="js/urlFunctions/takeScreenshots.js" type="module"></script>
+<script src="js/screenshotOptions/urlList.js" type="module"></script>
+<script src="js/urlFunctions/addUrl.js" type="module"></script>
+<script src="js/urlFunctions/loadUrls.js" type="module"></script>
+<script src="js/urlFunctions/crawlUrl.js" type="module"></script>
+<script src="js/misc/screenshotInspector.js" type="module"></script>
+<script src="js/screenshotOptions/downloadScreenshots.js"></script>
+<script src="js/screenshotOptions/removeScreenshots.js"></script>
+<script src="js/misc/menu.js"></script>
+<script src="js/misc/loadingBar.js"></script>
+</html>

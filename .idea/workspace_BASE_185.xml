@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="screenshot folder added to git ignore">
+      <change afterPath="$PROJECT_DIR$/public/js/screenshotOptions/urlList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/urlFunctions/addUrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/screenshotOptions/resolutions.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/screenshotOptions/resolutions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/urlFunctions/takeScreenshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/urlFunctions/takeScreenshot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/resolutionsJson.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/resolutionsJson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/screenshot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/screenshot.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Wqfyu3omZtvD2ZV2nlbUrYggni" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/imgs" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Pragmatic\QA Tools\public\imgs" />
+      <recent name="E:\Pragmatic\QA Tools\public\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js/screenshotOptions" />
+      <recent name="E:\Pragmatic\QA Tools\public\js" />
+      <recent name="E:\Pragmatic\QA Tools" />
+      <recent name="E:\Pragmatic\QA Tools\public\imgs" />
+      <recent name="E:\Pragmatic\QA Tools\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.launch-site">
+    <configuration name="index" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="3000" isV8Legacy="true" restartOnDisconnect="true">
+      <option name="v8Legacy" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="launch-site" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="launch-site" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Node.js/Chrome.index" />
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="npm.launch-site" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="" />
+      <created>1579275829635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579275829635</updated>
+      <workItem from="1579275830779" duration="392000" />
+      <workItem from="1579277218903" duration="1429000" />
+      <workItem from="1579871759429" duration="4280000" />
+      <workItem from="1579882308012" duration="102000" />
+      <workItem from="1579965998664" duration="732000" />
+      <workItem from="1580063330630" duration="1555000" />
+      <workItem from="1580141747380" duration="23529000" />
+      <workItem from="1580240815860" duration="13805000" />
+      <workItem from="1580380278410" duration="7974000" />
+      <workItem from="1580657782834" duration="9989000" />
+      <workItem from="1580746885461" duration="6859000" />
+    </task>
+    <task id="LOCAL-00001" summary="Web wireframe implemented&#10;&#10;The base html and css is done, though subject to change">
+      <created>1580169505680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580169505680</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added status messages and refactored takeScreenshot.js&#10;&#10;Text will now appear under the URL buttons displaying what will happen.&#10;The Take Screenshot button will also be disabled until the screenshot has been taken">
+      <created>1580249480565</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580249480565</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added download screenshots functionality&#10;&#10;You can now download all screenshots in the screenshot carousel by clicking download screenshots. &#10;It will download in a zip folder created by the client">
+      <created>1580253856885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580253856885</updated>
+    </task>
+    <task id="LOCAL-00004" summary="resolutions now load from resolutionsJson.js &#10;&#10;On load the page will now load all resolutions from resolutionsJson.js into the Screen Resolutions list">
+      <created>1580383741811</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580383741811</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added more resolutions">
+      <created>1580476264883</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580476264883</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Images now come with labels&#10;&#10;Had to refactor how the images were sent to the client but it did make it easier to process on the client side as they are now send as base64 so the client doesn't have to convert them.">
+      <created>1580482900474</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580482900474</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added select/deselect all resolution functionality">
+      <created>1580483722700</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580483722700</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Refactored display text into class to make it easier to understand in global file">
+      <created>1580484598283</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580484598283</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added comments">
+      <created>1580488708103</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580488708103</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fixed image corruption bug by adding a request queue">
+      <created>1580571062476</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580571062476</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added URL Validation">
+      <created>1580579199368</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1580579199369</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added colour to indicate if URL is valid">
+      <created>1580590858082</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580590858082</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Can now press enter to take screenshot">
+      <created>1580591719878</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1580591719878</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Handled invalid websites &#10;&#10;When the user submits an invalid website it is caught by the server and sent to the client. It then displays an error message to the user">
+      <created>1580665097245</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1580665097245</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Gave the status text a max length">
+      <created>1580675603880</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1580675603880</updated>
+    </task>
+    <task id="LOCAL-00016" summary="screenshot folder added to git ignore">
+      <created>1580747037648</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1580747037649</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Web wireframe implemented&#10;&#10;The base html and css is done, though subject to change" />
+    <MESSAGE value="Added status messages and refactored takeScreenshot.js&#10;&#10;Text will now appear under the URL buttons displaying what will happen.&#10;The Take Screenshot button will also be disabled until the screenshot has been taken" />
+    <MESSAGE value="Added download screenshots functionality&#10;&#10;You can now download all screenshots in the screenshot carousel by clicking download screenshots. &#10;It will download in a zip folder created by the client" />
+    <MESSAGE value="resolutions now load from resolutionsJson.js &#10;&#10;On load the page will now load all resolutions from resolutionsJson.js into the Screen Resolutions list" />
+    <MESSAGE value="Added more resolutions" />
+    <MESSAGE value="Images now come with labels&#10;&#10;Had to refactor how the images were sent to the client but it did make it easier to process on the client side as they are now send as base64 so the client doesn't have to convert them." />
+    <MESSAGE value="Added select/deselect all resolution functionality" />
+    <MESSAGE value="Refactored display text into class to make it easier to understand in global file" />
+    <MESSAGE value="Added comments" />
+    <MESSAGE value="Fixed image corruption bug by adding a request queue" />
+    <MESSAGE value="Added URL Validation" />
+    <MESSAGE value="Added colour to indicate if URL is valid" />
+    <MESSAGE value="Can now press enter to take screenshot" />
+    <MESSAGE value="Handled invalid websites &#10;&#10;When the user submits an invalid website it is caught by the server and sent to the client. It then displays an error message to the user" />
+    <MESSAGE value="Gave the status text a max length" />
+    <MESSAGE value="screenshot folder added to git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="screenshot folder added to git ignore" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580150625679">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580150625679" />
+    <state x="1044" y="508" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580142666305">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1044" y="508" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580142666305" />
+    <state x="905" y="300" width="1310" height="810" key="CommitChangelistDialog2" timestamp="1580747637747">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="905" y="300" width="1310" height="810" key="CommitChangelistDialog2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580747637747" />
+    <state x="2871" y="566" width="1168" height="808" key="CommitChangelistDialog2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@2560.497.1920.1050" timestamp="1580579197884" />
+    <state x="248" y="129" key="DiffContextDialog" timestamp="1580675567618">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="248" y="129" key="DiffContextDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580675567618" />
+    <state x="949" y="484" key="EditFileWatcherDialog" timestamp="1580142022225">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="949" y="484" key="EditFileWatcherDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580142022225" />
+    <state x="1060" y="461" key="FileChooserDialogImpl" timestamp="1580141964052">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1060" y="461" key="FileChooserDialogImpl/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580141964052" />
+    <state width="2539" height="432" key="GridCell.Tab.0.bottom" timestamp="1580759874526">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="432" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580759874526" />
+    <state width="1899" height="271" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@2560.497.1920.1050" timestamp="1580584912754" />
+    <state width="2539" height="432" key="GridCell.Tab.0.center" timestamp="1580759874526">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="432" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580759874526" />
+    <state width="1899" height="271" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@2560.497.1920.1050" timestamp="1580584912753" />
+    <state width="2539" height="432" key="GridCell.Tab.0.left" timestamp="1580759874526">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="432" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580759874526" />
+    <state width="1899" height="271" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@2560.497.1920.1050" timestamp="1580584912753" />
+    <state width="2539" height="432" key="GridCell.Tab.0.right" timestamp="1580759874526">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="432" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580759874526" />
+    <state width="1899" height="271" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@2560.497.1920.1050" timestamp="1580584912753" />
+    <state width="2539" height="496" key="GridCell.Tab.1.bottom" timestamp="1580664038995">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="496" key="GridCell.Tab.1.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580664038995" />
+    <state width="2539" height="496" key="GridCell.Tab.1.center" timestamp="1580664038994">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="496" key="GridCell.Tab.1.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580664038994" />
+    <state width="2539" height="496" key="GridCell.Tab.1.left" timestamp="1580664038994">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="496" key="GridCell.Tab.1.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580664038994" />
+    <state width="2539" height="496" key="GridCell.Tab.1.right" timestamp="1580664038995">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="496" key="GridCell.Tab.1.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580664038995" />
+    <state width="2539" height="496" key="GridCell.Tab.2.bottom" timestamp="1580664038995">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="496" key="GridCell.Tab.2.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580664038995" />
+    <state width="2539" height="496" key="GridCell.Tab.2.center" timestamp="1580664038995">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="496" key="GridCell.Tab.2.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580664038995" />
+    <state width="2539" height="496" key="GridCell.Tab.2.left" timestamp="1580664038995">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="496" key="GridCell.Tab.2.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580664038995" />
+    <state width="2539" height="496" key="GridCell.Tab.2.right" timestamp="1580664038995">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="496" key="GridCell.Tab.2.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580664038995" />
+    <state width="2539" height="496" key="GridCell.Tab.3.bottom" timestamp="1580664038996">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="496" key="GridCell.Tab.3.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580664038996" />
+    <state width="2539" height="496" key="GridCell.Tab.3.center" timestamp="1580664038995">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="496" key="GridCell.Tab.3.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580664038995" />
+    <state width="2539" height="496" key="GridCell.Tab.3.left" timestamp="1580664038995">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="496" key="GridCell.Tab.3.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580664038995" />
+    <state width="2539" height="496" key="GridCell.Tab.3.right" timestamp="1580664038995">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="496" key="GridCell.Tab.3.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580664038995" />
+    <state x="1126" y="416" key="RollbackChangesDialog" timestamp="1580664257120">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1126" y="416" key="RollbackChangesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580664257120" />
+    <state x="781" y="348" key="SettingsEditor" timestamp="1580142031534">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="781" y="348" key="SettingsEditor/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580142031534" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1580689826426">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580689826426" />
+    <state x="3214" y="823" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@2560.497.1920.1050" timestamp="1580249486525" />
+    <state x="-1601" y="564" key="com.intellij.ide.util.TipDialog" timestamp="1579882308427">
+      <screen x="-2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="-1601" y="564" key="com.intellij.ide.util.TipDialog/0.23.1920.1177/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1579882308427" />
+    <state x="936" y="333" key="run.anything.popup" timestamp="1580659331519">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="936" y="333" key="run.anything.popup/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580659331519" />
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1580570607999">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1580570607999" />
+  </component>
+</project>

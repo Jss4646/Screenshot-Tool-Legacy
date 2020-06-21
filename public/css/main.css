@@ -1,0 +1,354 @@
+[hidden] {
+  display: none !important;
+}
+
+body {
+  font-family: "Raleway";
+  display: grid;
+  grid-template-columns: 3fr 3fr repeat(2, 201px) 0.5fr;
+  grid-template-rows: 10vh 25vh 60vh;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: normal;
+  margin: 0;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.opacity-hidden {
+  opacity: 0;
+}
+
+.title-bar {
+  height: 80px;
+  grid-column: 1/5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-bar .menu-button {
+  position: absolute;
+  left: 1rem;
+  width: 30px;
+  height: 30px;
+}
+.title-bar .title {
+  border: 1px solid black;
+  padding: 7px 120px;
+}
+
+.menu-container {
+  position: absolute;
+  display: none;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+}
+.menu-container .menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.2fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "header header header" "cookies default-resolutions misc";
+  justify-items: center;
+  align-self: center;
+  position: relative;
+  margin: 0 8% 40px 8%;
+  height: 80vh;
+  background: white;
+  border: 1px solid black;
+}
+.menu-container .menu h3 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.menu-container .menu .settings-header {
+  grid-area: header;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.menu-container .menu .settings-header .menu-exit-button {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  margin-right: 20px;
+}
+.menu-container .menu .cookie-container {
+  grid-area: cookies;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.menu-container .menu .cookie-container textarea {
+  resize: none;
+  width: 90%;
+  height: 80%;
+  border: 1px solid black;
+}
+.menu-container .menu .default-res-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.menu-container .menu .default-res-container .default-res-list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 90%;
+  height: 80%;
+  border: 1px solid black;
+}
+.menu-container .menu .default-res-container .default-res-list .resolution-container {
+  padding: 5px;
+}
+
+.url-options {
+  width: 600px;
+  margin-bottom: 10px;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  justify-self: center;
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.url-options .url-title {
+  margin: 5px 0;
+}
+.url-options .url {
+  width: 600px;
+  height: 25px;
+  margin: 10px 0;
+}
+.url-options .url:focus {
+  outline: none;
+}
+.url-options .accept {
+  border-color: #15de64;
+}
+.url-options .reject {
+  border-color: crimson;
+}
+.url-options .loading-bar {
+  width: 100%;
+  height: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+.url-options .status {
+  width: 1000px;
+  text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.screenshot-tools {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 465px;
+  grid-column: 1/3;
+  grid-row: 3/span 2;
+}
+.screenshot-tools .screenshot-carousel {
+  height: 450px;
+  padding: 10px;
+  grid-column: 1;
+  overflow: auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.screenshot-tools .screenshot-carousel .container-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.screenshot-tools .screenshot-carousel .container-header .toggle-button {
+  height: 25px;
+}
+.screenshot-tools .screenshot-carousel .container-header .folder-amount {
+  margin-left: 2px;
+  color: #15de64;
+  font-weight: bold;
+}
+.screenshot-tools .screenshot-carousel .container-header .container-title {
+  margin-left: 5px;
+}
+.screenshot-tools .screenshot-carousel .site .page {
+  margin-left: 5px;
+}
+.screenshot-tools .screenshot-carousel .site .page .screenshots {
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  will-change: scroll-position;
+}
+.screenshot-tools .screenshot-carousel .site .page .screenshots .screenshot-content {
+  height: 373px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.screenshot-tools .screenshot-carousel .site .page .screenshots .screenshot-content .screenshot-resolution-name {
+  margin: 0 0 0 8px;
+}
+.screenshot-tools .screenshot-carousel .site .page .screenshots .screenshot-content .screenshot-container {
+  max-height: 331px;
+  width: 400px;
+  overflow: auto;
+  display: flex;
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px;
+  border: 1px solid transparent;
+}
+.screenshot-tools .screenshot-carousel .site .page .screenshots .screenshot-content .screenshot-container:hover {
+  border: 1px black solid;
+}
+.screenshot-tools .screenshot-carousel .site .page .screenshots .screenshot-content .screenshot-container .screenshot {
+  width: 383px;
+}
+.screenshot-tools .download-screenshots {
+  margin: 20px;
+}
+
+.large-screenshot-cover {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(2px);
+}
+.large-screenshot-cover .large-screenshot-content {
+  width: 90%;
+  height: 90%;
+}
+.large-screenshot-cover .large-screenshot-content .return-button {
+  width: 30px;
+  height: 30px;
+}
+.large-screenshot-cover .large-screenshot-content .large-screenshot {
+  width: 100%;
+}
+
+.screenshot-options-container {
+  grid-column: 3/5;
+  grid-row: 2/4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+.screenshot-options-container .screenshot-options-title {
+  margin: 20px 0 15px 0;
+}
+.screenshot-options-container .screenshot-options {
+  width: 400px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  background-color: white;
+}
+.screenshot-options-container .screenshot-options .urls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.screenshot-options-container .screenshot-options .urls .urls-title {
+  margin: 20px 0 2px 0;
+}
+.screenshot-options-container .screenshot-options .urls .url-list {
+  width: 345px;
+  height: 345px;
+  padding: 5px;
+  margin: 0;
+  border: 1px solid black;
+  list-style: none;
+  overflow: auto;
+}
+.screenshot-options-container .screenshot-options .urls .url-list .url-list-item {
+  margin: 1px;
+  width: max-content;
+}
+.screenshot-options-container .screenshot-options .urls .url-list .url-list-item:hover {
+  background-color: grey;
+}
+.screenshot-options-container .screenshot-options .urls .url-list .url-list-item a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 1px;
+}
+.screenshot-options-container .screenshot-options .urls .url-list .url-list-item a:hover {
+  color: white;
+}
+.screenshot-options-container .screenshot-options .urls .take-screenshots {
+  margin: 10px 0;
+}
+.screenshot-options-container .screenshot-options .screen-resolutions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.screenshot-options-container .screenshot-options .screen-resolutions .screen-resolutions-title {
+  margin: 10px;
+}
+.screenshot-options-container .screenshot-options .screen-resolutions .resolution-list {
+  height: 220px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  overflow: auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+.screenshot-options-container .screenshot-options .screen-resolutions .resolution-list .resolution-container {
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.screenshot-options-container .screenshot-options .screen-resolutions .select-buttons {
+  margin: 10px;
+}
+.screenshot-options-container .screenshot-options .screen-resolutions .select-buttons button {
+  margin: 0 40px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+{
+  "name": "visual-regression-site",
+  "version": "1.0.0",
+  "description": "A site to help with visual regression by taking screenshots at different screen sizes",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "node index.js",
+    "start": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jacksandeman@bitbucket.org/jacksandeman/visual-reggresion-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/jacksandeman/visual-reggresion-site#readme",
+  "dependencies": {
+    "agent-base": "^6.0.0",
+    "aws-sdk": "^2.693.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "confluence-api": "^1.4.0",
+    "cypress": "^4.2.0",
+    "express": "^4.17.1",
+    "express-queue": "0.0.12",
+    "googleapis": "^39.2.0",
+    "node-fetch": "^2.6.0",
+    "progressbar.js": "^1.1.0",
+    "puppeteer": "^2.1.1",
+    "sass": "^1.25.0",
+    "simplecrawler": "^1.1.8",
+    "sitemap-stream-parser": "^1.7.0",
+    "valid-url": "^1.0.9",
+    "wait-on": "^4.0.1"
+  },
+  "devDependencies": {
+    "puppeteer": "^2.1.1"
+  }
+}

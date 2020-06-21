@@ -1,0 +1,26 @@
+image: cypress/base:10
+options:
+  max-time: 30
+pipelines:
+  default:
+    - step:
+        name: Install dependencies
+        caches:
+          - npm
+          - node
+          - cypress
+        script:
+          - npm ci
+    - step:
+        name: Start server and run tests
+        caches:
+          - node
+          - cypress
+        script:
+          - npm run start & npx wait-on http://localhost:3000/
+          - npm run test
+
+definitions:
+  caches:
+    npm: $HOME/.npm
+    cypress: $HOME/.cache/Cypress
