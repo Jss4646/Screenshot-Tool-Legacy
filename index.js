@@ -7,7 +7,7 @@ const crawler = require('./tools/crawler.js');
 const doc = require('./tools/document-screenshots.js');
 
 const app = express();
-const port = 3000;
+const port = process.env.port || 3000;
 
 const queue = expressQueue({activeLimit: 3, queuedLimit: -1});
 

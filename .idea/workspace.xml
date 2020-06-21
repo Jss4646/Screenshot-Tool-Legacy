@@ -13,55 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Added perm file for AWS">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitbucket-pipelines.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/fixtures/example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/integration/screenshot-bar-buttons-tests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/integration/url-tests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/support/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/videos/screenshot-bar-buttons-tests.js.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/videos/url-tests.js.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imgs/back-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imgs/exit-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imgs/expand-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imgs/menu-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imgs/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/misc/loadingBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/misc/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/misc/screenshotInspector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/screenshotOptions/downloadScreenshots.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/screenshotOptions/removeScreenshots.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/screenshotOptions/resolutions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/screenshotOptions/urlList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/urlFunctions/addUrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/urlFunctions/crawlUrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/urlFunctions/loadUrls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/urlFunctions/takeScreenshots.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/urlFunctions/urlBarHighlighting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/vendor/FileSaver.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/vendor/jszip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/vendor/progressBar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resolutionsJson.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/bucket-access.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/crawler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/document-screenshots.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/screenshot.js" afterDir="false" />
+    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Port from gitbucket">
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,14 +192,7 @@
       <workItem from="1592484929038" duration="7660000" />
       <workItem from="1592577232025" duration="126000" />
       <workItem from="1592778175483" duration="73000" />
-      <workItem from="1592780494023" duration="324000" />
-    </task>
-    <task id="LOCAL-00023" summary="Fixed merging issues.">
-      <created>1585324556546</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1585324556546</updated>
+      <workItem from="1592780494023" duration="989000" />
     </task>
     <task id="LOCAL-00024" summary="Fixed merging issues.">
       <created>1585329481015</created>
@@ -584,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592583525000</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Port from gitbucket">
+      <created>1592780869344</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1592780869344</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +581,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adjusted css to accommodate larger screen&#10;&#10;Added more screen resolutions" />
     <MESSAGE value="Crawler Works!&#10;&#10;Will crawl a site for any links on the page and add them to the url list" />
     <MESSAGE value="Fixed merging issues." />
     <MESSAGE value="bitbucket-pipelines testing" />
@@ -653,7 +605,8 @@
     <MESSAGE value="Fixed CLI endpoint bug with cookies" />
     <MESSAGE value="Can now toggle on an option that will upload a page to confluence containing screenshots taken&#10;https://confluence.pragmatic.agency/display/SCREEN/screenshots+Home" />
     <MESSAGE value="Added config file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added config file" />
+    <MESSAGE value="Port from gitbucket" />
+    <option name="LAST_COMMIT_MESSAGE" value="Port from gitbucket" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="364" key="#Deployment" timestamp="1586444569949">
@@ -690,25 +643,25 @@
     </state>
     <state x="1060" y="461" key="FileChooserDialogImpl/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592520191932" />
     <state x="1060" y="461" key="FileChooserDialogImpl/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591890464315" />
-    <state width="2539" height="341" key="GridCell.Tab.0.bottom" timestamp="1592520196659">
+    <state width="1543" height="341" key="GridCell.Tab.0.bottom" timestamp="1592780690080">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="2539" height="341" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592520196659" />
+    <state width="1543" height="341" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592780690080" />
     <state width="2539" height="445" key="GridCell.Tab.0.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
-    <state width="2539" height="341" key="GridCell.Tab.0.center" timestamp="1592520196659">
+    <state width="1543" height="341" key="GridCell.Tab.0.center" timestamp="1592780690080">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="2539" height="341" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592520196659" />
+    <state width="1543" height="341" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592780690080" />
     <state width="2539" height="445" key="GridCell.Tab.0.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
-    <state width="2539" height="341" key="GridCell.Tab.0.left" timestamp="1592520196659">
+    <state width="1543" height="341" key="GridCell.Tab.0.left" timestamp="1592780690079">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="2539" height="341" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592520196659" />
+    <state width="1543" height="341" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592780690079" />
     <state width="2539" height="445" key="GridCell.Tab.0.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
-    <state width="2539" height="341" key="GridCell.Tab.0.right" timestamp="1592520196659">
+    <state width="1543" height="341" key="GridCell.Tab.0.right" timestamp="1592780690080">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="2539" height="341" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592520196659" />
+    <state width="1543" height="341" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592780690080" />
     <state width="2539" height="445" key="GridCell.Tab.0.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
     <state width="2539" height="609" key="GridCell.Tab.1.bottom" timestamp="1592410398220">
       <screen x="0" y="0" width="2560" height="1410" />
@@ -786,10 +739,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="781" y="348" key="SettingsEditor/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1586444639725" />
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1592779880424">
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1592780871801">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592779880424" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592780871801" />
     <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591835986916">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
