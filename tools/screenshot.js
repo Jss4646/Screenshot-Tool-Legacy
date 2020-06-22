@@ -118,8 +118,15 @@ async function generateScreenshot(screenshotData, resolution = {width: 1920, hei
     let urlHost = parsedUrl.host;
     let urlPath = parsedUrl.path;
 
-    let browser = await puppeteer.launch({headless: true, ignoreDefaultArgs: ['--disable-extensions']});
-    let page = await browser.newPage();
+    const local = {};
+
+    if (await fs.existsSync('/usr/bin/google-chrome-stable')) {
+        local.browser = await puppeteer.launch({executablePath: '/usr/bin/google-chrome-stable',headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox']});
+    } else {
+        local.browser = await puppeteer.launch({headless: true, args: ['--disable-extensions']});
+    }
+
+    let page = await local.browser.newPage();
 
     if (deviceName in devices) {
         console.log(`Emulating ${deviceName}`);
@@ -149,7 +156,7 @@ async function generateScreenshot(screenshotData, resolution = {width: 1920, hei
 
     await page.screenshot({path: imagePath, fullPage: true});
     console.log('screenshot taken');
-    browser.close();
+    local.browser.close();
     return imagePath;
 }
 
