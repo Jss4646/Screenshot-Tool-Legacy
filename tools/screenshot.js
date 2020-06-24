@@ -11,6 +11,8 @@ async function initialiseCluster() {
         concurrency: Cluster.CONCURRENCY_CONTEXT,
         maxConcurrency: 2,
         retryLimit: 1,
+        timeout: 100000,
+        monitor: true,
         puppeteerOptions: {
             executablePath: process.env.chromeLocation || undefined
         }
