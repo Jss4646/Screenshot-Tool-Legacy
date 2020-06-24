@@ -1,11 +1,42 @@
 const devices = require('puppeteer/DeviceDescriptors');
-const puppeteer = require('puppeteer');
-const fs = require('fs');
+const {Cluster} = require('puppeteer-cluster');
 const path = require('path');
-const urlParser = require('url');
-const util = require("util");
 
 const bucket = require('./bucket-access.js');
+
+const local = {}
+
+async function initialiseCluster() {
+    local.cluster = await Cluster.launch({
+        concurrency: Cluster.CONCURRENCY_CONTEXT,
+        maxConcurrency: 2,
+        retryLimit: 1,
+        puppeteerOptions: {
+            executablePath: process.env.chromeLocation || undefined
+        }
+    });
+
+    await local.cluster.task(async ({page, data: {screenshotData, resolution = {width: 1920, height: 1080}}}) => {
+        let {url, deviceName, screenshotName, cookieData} = screenshotData
+
+        if (deviceName in devices) {
+            console.log(`Emulating ${deviceName}`);
+            let device = devices[deviceName];
+            await page.emulate(device);
+        } else {
+            await page.setViewport(resolution);
+        }
+
+        console.log(`Screenshotting Website: ${url}`);
+        console.log(`Device: ${deviceName}`);
+
+        if (cookieData) await page.setCookie(...cookieData);
+        await page.goto(`${url}`);
+        await page.waitFor(0);
+
+        return await page.screenshot({fullPage: true});
+    })
+}
 
 
 /**
@@ -46,31 +77,31 @@ function sendWebScreenshot(req, res, next) {
  * Takes a screenshot of a given website and saves it to ./screenshots/
  *
  * @param req
- * @returns {Promise<Buffer>}
+ * @returns {Promise<string>}
  */
 async function generateWebScreenshot(req) {
-    let url = req.query.url;
-    let deviceName = req.body.deviceName;
     let resolution = req.body.resolution;
-    let screenshotName = req.body.fileName;
-    let cookieData = req.body.cookieData;
 
-    let screenshotData = {url, deviceName, screenshotName, cookieData};
-    let screenshotPath = await generateScreenshot(screenshotData, resolution);
+    let screenshotData = {
+        url: req.query.url,
+        deviceName: req.body.deviceName,
+        screenshotName: req.body.fileName,
+        cookieData: req.body.cookieData
+    };
 
-    const readFile = util.promisify(fs.readFile);
-    return readFile(screenshotPath)
-        .then(async file => {
-            let queryUrl = new URL(url);
-            if (queryUrl.pathname === '/') queryUrl.pathname = `${queryUrl.pathname}/`;
-            let screenshotPath = `${queryUrl.host}${queryUrl.pathname}${screenshotName}.jpg`;
-            let bucketUrl = await bucket.uploadScreenshot(file, screenshotPath);
+    let screenshot = await local.cluster.execute({screenshotData, resolution});
+    let screenshotBuffer = Buffer.from(screenshot, 'base64');
 
-            let screenshotUrl = new URL(bucketUrl)
-            screenshotUrl.host = 'd2imgupmba2ikz.cloudfront.net'
+    let queryUrl = new URL(screenshotData.url);
+    if (queryUrl.pathname === '/') queryUrl.pathname = `${queryUrl.pathname}/`;
+    let screenshotPath = `${queryUrl.host}${queryUrl.pathname}${screenshotData.screenshotName}.jpg`;
+    let bucketUrl = await bucket.uploadScreenshot(screenshotBuffer, screenshotPath);
 
-            return screenshotUrl.toString();
-        })
+    let screenshotUrl = new URL(bucketUrl)
+    screenshotUrl.host = 'd2imgupmba2ikz.cloudfront.net'
+
+    return screenshotUrl.toString();
+
 }
 
 /**
@@ -90,91 +121,21 @@ function sendCliScreenshot(req, res) {
 /**
  *
  * @param req
- * @return {Promise<string>}
+ * @return {Promise<void>}
  */
 async function generateCliScreenshot(req) {
-    let url = req.query.url;
-    let deviceName = req.query.deviceName;
-    let cookieData = req.query.cookieData;
-
     let screenshotData = {
-        url: url,
-        deviceName: deviceName,
+        url: req.query.url,
+        deviceName: req.query.deviceName,
         screenshotName: 'cliScreenshot',
-        cookieData: cookieData
-    }
-    return await generateScreenshot(screenshotData);
-}
+        cookieData: req.query.cookieData,
+    };
 
-/**
- *
- * @param screenshotData
- * @param resolution
- * @return {Promise<string>}
- */
-async function generateScreenshot(screenshotData, resolution = {width: 1920, height: 1080}) {
-    let {url, deviceName, screenshotName, cookieData} = screenshotData
-    let parsedUrl = urlParser.parse(url);
-    let urlHost = parsedUrl.host;
-    let urlPath = parsedUrl.path;
-
-    const local = {};
-
-    if (await fs.existsSync('/usr/bin/google-chrome-stable')) {
-        local.browser = await puppeteer.launch({executablePath: '/usr/bin/google-chrome-stable',headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox']});
-    } else {
-        local.browser = await puppeteer.launch({headless: true, args: ['--disable-extensions']});
-    }
-
-    let page = await local.browser.newPage();
-
-    if (deviceName in devices) {
-        console.log(`Emulating ${deviceName}`);
-        let device = devices[deviceName];
-        await page.emulate(device);
-    } else {
-        await page.setViewport(resolution);
-    }
-
-    console.log(`Screenshotting Website: ${url}`);
-    console.log(`Device: ${deviceName}`);
-
-    if (cookieData) await page.setCookie(...cookieData);
-    await page.goto(`${url}`);
-    await page.waitFor(0);
-
-    if (urlPath === '/') {
-        urlPath = 'home'
-    } else {
-        urlPath = `pages/${urlPath}`;
-    }
-
-    let folderPath = `./screenshots/${urlHost}/${urlPath}`
-    let imagePath = `${folderPath}/${screenshotName}.jpg`;
-
-    await folderPathCheck(folderPath);
-
-    await page.screenshot({path: imagePath, fullPage: true});
-    console.log('screenshot taken');
-    local.browser.close();
-    return imagePath;
-}
-
-async function folderPathCheck(path) {
-
-    let folderNames = path.split('/')
-
-    let pathCheck = '';
-    for (const folderName of folderNames) {
-        pathCheck = `${pathCheck}${folderName}/`
-
-        if (!fs.existsSync(pathCheck)) {
-            await fs.promises.mkdir(pathCheck);
-        }
-    }
+    return await local.cluster.queue(screenshotData);
 }
 
 module.exports = {
+    initialiseCluster,
     sendWebScreenshot,
-    sendCliScreenshot
+    sendCliScreenshot,
 };

@@ -25,6 +25,7 @@
     "node-fetch": "^2.6.0",
     "progressbar.js": "^1.1.0",
     "puppeteer": "^2.1.1",
+    "puppeteer-cluster": "^0.21.0",
     "sass": "^1.25.0",
     "simplecrawler": "^1.1.8",
     "sitemap-stream-parser": "^1.7.0",
