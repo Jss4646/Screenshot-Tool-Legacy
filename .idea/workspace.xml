@@ -13,8 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Changed chrome location on aws">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Updated cluster options">
       <change beforePath="$PROJECT_DIR$/tools/screenshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/screenshot.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,13 +187,6 @@
       <workItem from="1592778175483" duration="73000" />
       <workItem from="1592780494023" duration="5891000" />
       <workItem from="1592996050064" duration="8400000" />
-    </task>
-    <task id="LOCAL-00029" summary="bitbucket-pipelines testing">
-      <created>1585333043385</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1585333043385</updated>
     </task>
     <task id="LOCAL-00030" summary="bitbucket-pipelines testing">
       <created>1585333153002</created>
@@ -532,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592786942356</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Updated cluster options">
+      <created>1593012121362</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1593012121362</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +575,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added comments" />
     <MESSAGE value="Added sitemap crawler" />
     <MESSAGE value="Updated screenshot path" />
     <MESSAGE value="Fixed checkbox bug" />
@@ -601,7 +599,8 @@
     <MESSAGE value="removed cypress install and script" />
     <MESSAGE value="Completely removed cypress" />
     <MESSAGE value="Changed chrome location on aws" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed chrome location on aws" />
+    <MESSAGE value="Updated cluster options" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated cluster options" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="364" key="#Deployment" timestamp="1586444569949">
@@ -734,10 +733,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="781" y="348" key="SettingsEditor/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1586444639725" />
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1593011022082">
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1593012122962">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593011022082" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593012122962" />
     <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593010836567">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
