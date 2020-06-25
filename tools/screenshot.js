@@ -13,8 +13,18 @@ async function initialiseCluster() {
         retryLimit: 1,
         timeout: 500000,
         puppeteerOptions: {
-            executablePath: process.env.chromeLocation || undefined
-        }
+            executablePath: process.env.chromeLocation || undefined,
+            args: [
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-accelerated-2d-canvas',
+                '--no-first-run',
+                '--no-zygote',
+                `${process.env.singleProcess || null}`,
+                '--disable-gpu',
+            ]
+        },
     });
 
     await local.cluster.task(async ({page, data: {screenshotData, resolution = {width: 1920, height: 1080}}}) => {
@@ -35,7 +45,9 @@ async function initialiseCluster() {
         await page.goto(`${url}`);
         await page.waitFor(0);
 
-        return await page.screenshot({fullPage: true});
+        let screenshot = await page.screenshot({fullPage: true});
+        await page.close();
+        return screenshot;
     })
 }
 
