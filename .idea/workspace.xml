@@ -13,8 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="changed from take-web-screenshot">
-      <change beforePath="$PROJECT_DIR$/public/js/urlFunctions/takeScreenshots.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/urlFunctions/takeScreenshots.js" afterDir="false" />
+    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="added /api/">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,13 +196,6 @@
       <workItem from="1592996050064" duration="8400000" />
       <workItem from="1593092117891" duration="2984000" />
       <workItem from="1593776962171" duration="10165000" />
-    </task>
-    <task id="LOCAL-00036" summary="bitbucket-pipelines testing">
-      <created>1585840726839</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1585840726840</updated>
     </task>
     <task id="LOCAL-00037" summary="bitbucket-pipelines testing">
       <created>1585841412642</created>
@@ -539,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594642805426</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="added /api/">
+      <created>1594643102703</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1594643102704</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +584,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Changed to jpg" />
     <MESSAGE value="Added basic folder functionality" />
     <MESSAGE value="Fixed folder bug" />
     <MESSAGE value="Add hide folder functionality" />
@@ -608,7 +608,8 @@
     <MESSAGE value="Updated timeout" />
     <MESSAGE value="First serverless function test" />
     <MESSAGE value="changed from take-web-screenshot" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed from take-web-screenshot" />
+    <MESSAGE value="added /api/" />
+    <option name="LAST_COMMIT_MESSAGE" value="added /api/" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="364" key="#Deployment" timestamp="1594638553392" />
@@ -699,10 +700,10 @@
     <state x="1126" y="416" key="RollbackChangesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
     <state x="781" y="348" key="SettingsEditor" timestamp="1594638553392" />
     <state x="781" y="348" key="SettingsEditor/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1594642811096">
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1594643111507">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594642811096" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594643111507" />
     <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594638553392" />
     <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
     <state x="988" y="393" width="583" height="624" key="find.popup" timestamp="1594638553392" />
