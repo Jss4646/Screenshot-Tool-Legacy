@@ -30,6 +30,10 @@ export function takeScreenshots(inputUrl) {
 }
 
 async function generateScreenshots(inputUrl) {
-    let pageResponse = await fetch(inputUrl)
-    console.log(pageResponse);
+    const iframe = document.createElement('iframe')
+    iframe.src = inputUrl;
+    iframe.width = '600'
+    iframe.height = '400'
+    iframe.title = 'Testing'
+    screenshotCarousel.append(iframe)
 }

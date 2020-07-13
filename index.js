@@ -1,4 +1,5 @@
 const bodyParser = require('body-parser');
+const fetch = require('node-fetch');
 const express = require('express');
 
 const {sendWebScreenshot, sendCliScreenshot, initialiseCluster} = require('./tools/screenshot');
@@ -11,6 +12,12 @@ const port = process.env.port || 3000;
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
+app.post('/get-page-data', (req, res) => {
+        fetch(req.body.url)
+            .then(response => response.text())
+            .then(text => res.send(text))
+})
 
 initialiseCluster()
     .then(() => {
