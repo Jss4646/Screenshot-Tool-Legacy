@@ -144,7 +144,7 @@ function generateScreenshots(inputUrl, screenshotData) {
 function generateScreenshot(inputUrl, screenshotData) {
     console.log(screenshotData);
 
-    return fetch(`${window.origin}/take-web-screenshot?url=${inputUrl}`, createJsonPostData(screenshotData))
+    return fetch(`${window.origin}/take-screenshot?url=${inputUrl}`, createJsonPostData(screenshotData))
         .then(response => {
             if (!response.ok) throw Error(response.statusText);
             return response.json();
