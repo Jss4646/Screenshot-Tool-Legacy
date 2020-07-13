@@ -14,84 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Updated timeout">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2020_23_40_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2020_23_40__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_11_52__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_11_52__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_04_2020_15_22__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_04_2020_15_22__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_21_06_2020_23_41_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_21_06_2020_23_41__Default_Changelist_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/take-screenshot.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/screenshotOptions/downloadScreenshots.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/screenshotOptions/downloadScreenshots.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/urlFunctions/takeScreenshots.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/urlFunctions/takeScreenshots.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/screenshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/screenshot.js" afterDir="false" />
     </list>
-    <ignored path="C:\Users\jacks\Documents\Pragmatic\QA Tools\screenshot-tool\.idea\shelf/" />
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/global.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/screenshotOptions/downloadScreenshots.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/urlFunctions/takeScreenshots.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="338" column="1" lean-forward="true" selection-start-line="338" selection-start-column="1" selection-end-line="338" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/screenshot.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2706">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,22 +35,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="download-fix" />
       </map>
     </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/public/js/global.js" />
-        <option value="$PROJECT_DIR$/tools/screenshot.js" />
-        <option value="$PROJECT_DIR$/public/js/screenshotOptions/downloadScreenshots.js" />
-        <option value="$PROJECT_DIR$/public/js/urlFunctions/takeScreenshots.js" />
-      </list>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -130,60 +51,6 @@
   <component name="ProjectId" id="1Wqfyu3omZtvD2ZV2nlbUrYggni" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="screenshot-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="screenshot-tool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screenshot-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="screenshot-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screenshot-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="screenshot-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screenshot-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="screenshot-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshotOptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screenshot-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="screenshot-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="urlFunctions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screenshot-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="screenshot-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screenshot-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="screenshot-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -221,18 +88,6 @@
       <recent name="E:\Pragmatic\QA Tools\public\js" />
       <recent name="E:\Pragmatic\QA Tools" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.start-server">
     <configuration name="index" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="3000" isV8Legacy="true" restartOnDisconnect="true">
@@ -690,34 +545,6 @@
     <option name="localTasksCounter" value="83" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10165000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3296582" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3296582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" x="0" y="0" width="434" height="866" id="Documentation" side_tool="true" weight="0.32995737" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -736,14 +563,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -762,6 +582,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -793,136 +614,107 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated timeout" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="364" key="#Deployment" />
-    <state x="872" y="364" key="#Deployment/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
-    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state x="1044" y="508" key="#com.intellij.fileTypes.FileTypeChooser" />
-    <state x="1044" y="508" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="1010" y="451" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
-    <state x="1010" y="451" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="1027" y="561" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" />
-    <state x="1027" y="561" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="887" y="181" width="1310" height="1144" key="CommitChangelistDialog2" />
-    <state x="887" y="181" width="1310" height="1144" key="CommitChangelistDialog2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="2488" y="673" width="2048" height="1155" maximized="true" key="DiffContextDialog" />
-    <state x="2488" y="673" width="2048" height="1155" maximized="true" key="DiffContextDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="1060" y="461" key="FileChooserDialogImpl" />
-    <state x="1060" y="461" key="FileChooserDialogImpl/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="1060" y="461" key="FileChooserDialogImpl/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2539" height="668" key="GridCell.Tab.0.bottom" />
-    <state width="2539" height="668" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.0.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2539" height="668" key="GridCell.Tab.0.center" />
-    <state width="2539" height="668" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.0.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2539" height="668" key="GridCell.Tab.0.left" />
-    <state width="2539" height="668" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.0.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2539" height="668" key="GridCell.Tab.0.right" />
-    <state width="2539" height="668" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.0.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2517" height="439" key="GridCell.Tab.1.bottom" />
-    <state width="2517" height="439" key="GridCell.Tab.1.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.1.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2517" height="439" key="GridCell.Tab.1.center" />
-    <state width="2517" height="439" key="GridCell.Tab.1.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.1.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2517" height="439" key="GridCell.Tab.1.left" />
-    <state width="2517" height="439" key="GridCell.Tab.1.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.1.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2517" height="439" key="GridCell.Tab.1.right" />
-    <state width="2517" height="439" key="GridCell.Tab.1.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.1.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2517" height="439" key="GridCell.Tab.2.bottom" />
-    <state width="2517" height="439" key="GridCell.Tab.2.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.2.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2517" height="439" key="GridCell.Tab.2.center" />
-    <state width="2517" height="439" key="GridCell.Tab.2.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.2.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2517" height="439" key="GridCell.Tab.2.left" />
-    <state width="2517" height="439" key="GridCell.Tab.2.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.2.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2517" height="439" key="GridCell.Tab.2.right" />
-    <state width="2517" height="439" key="GridCell.Tab.2.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.2.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2517" height="439" key="GridCell.Tab.3.bottom" />
-    <state width="2517" height="439" key="GridCell.Tab.3.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.3.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2517" height="439" key="GridCell.Tab.3.center" />
-    <state width="2517" height="439" key="GridCell.Tab.3.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.3.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2517" height="439" key="GridCell.Tab.3.left" />
-    <state width="2517" height="439" key="GridCell.Tab.3.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.3.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state width="2517" height="439" key="GridCell.Tab.3.right" />
-    <state width="2517" height="439" key="GridCell.Tab.3.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state width="2539" height="445" key="GridCell.Tab.3.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" />
-    <state x="248" y="128" key="MergeDialog" />
-    <state x="248" y="128" key="MergeDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="992" y="421" key="MultipleFileMergeDialog" />
-    <state x="992" y="421" key="MultipleFileMergeDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="1126" y="416" key="RollbackChangesDialog" />
-    <state x="1126" y="416" key="RollbackChangesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="781" y="348" key="SettingsEditor" />
-    <state x="781" y="348" key="SettingsEditor/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2" />
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog" />
-    <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="988" y="393" width="583" height="624" key="find.popup" />
-    <state x="988" y="393" width="583" height="624" key="find.popup/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="1061" y="418" key="git4idea.branch.GitSmartOperationDialog" />
-    <state x="1061" y="418" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="975" y="600" key="git4idea.remote.GitConfigureRemotesDialog" />
-    <state x="975" y="600" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="936" y="333" key="run.anything.popup" />
-    <state x="936" y="333" key="run.anything.popup/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" />
-    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/urlFunctions/takeScreenshots.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="338" column="1" lean-forward="true" selection-start-line="338" selection-start-column="1" selection-end-line="338" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/screenshot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2706">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/screenshotOptions/downloadScreenshots.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
+    <state x="872" y="364" key="#Deployment" timestamp="1594638553392" />
+    <state x="872" y="364" key="#Deployment/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594638553392" />
+    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="1044" y="508" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594641160797">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1044" y="508" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594641160797" />
+    <state x="1010" y="451" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594638553392" />
+    <state x="1010" y="451" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="1027" y="561" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1594638553392" />
+    <state x="1027" y="561" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="887" y="181" width="1310" height="1144" key="CommitChangelistDialog2" timestamp="1594638553392" />
+    <state x="887" y="181" width="1310" height="1144" key="CommitChangelistDialog2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="2488" y="673" width="2048" height="1155" maximized="true" key="DiffContextDialog" timestamp="1594638553392" />
+    <state x="2488" y="673" width="2048" height="1155" maximized="true" key="DiffContextDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="1060" y="461" key="FileChooserDialogImpl" timestamp="1594638553392" />
+    <state x="1060" y="461" key="FileChooserDialogImpl/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="1060" y="461" key="FileChooserDialogImpl/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="442" key="GridCell.Tab.0.bottom" timestamp="1594641166017">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="442" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594641166017" />
+    <state width="2539" height="445" key="GridCell.Tab.0.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="442" key="GridCell.Tab.0.center" timestamp="1594641166016">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="442" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594641166016" />
+    <state width="2539" height="445" key="GridCell.Tab.0.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="442" key="GridCell.Tab.0.left" timestamp="1594641166016">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="442" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594641166016" />
+    <state width="2539" height="445" key="GridCell.Tab.0.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="442" key="GridCell.Tab.0.right" timestamp="1594641166016">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2539" height="442" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594641166016" />
+    <state width="2539" height="445" key="GridCell.Tab.0.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.1.bottom" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.1.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="445" key="GridCell.Tab.1.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.1.center" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.1.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="445" key="GridCell.Tab.1.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.1.left" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.1.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="445" key="GridCell.Tab.1.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.1.right" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.1.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="445" key="GridCell.Tab.1.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.2.bottom" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.2.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="445" key="GridCell.Tab.2.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.2.center" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.2.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="445" key="GridCell.Tab.2.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.2.left" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.2.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="445" key="GridCell.Tab.2.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.2.right" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.2.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="445" key="GridCell.Tab.2.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.3.bottom" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.3.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="445" key="GridCell.Tab.3.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.3.center" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.3.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="445" key="GridCell.Tab.3.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.3.left" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.3.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="445" key="GridCell.Tab.3.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.3.right" timestamp="1594638553392" />
+    <state width="2517" height="439" key="GridCell.Tab.3.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state width="2539" height="445" key="GridCell.Tab.3.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="860" y="439" key="IDE.errors.dialog" timestamp="1594638947502">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="860" y="439" key="IDE.errors.dialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638947502" />
+    <state x="248" y="128" key="MergeDialog" timestamp="1594638553392" />
+    <state x="248" y="128" key="MergeDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="992" y="421" key="MultipleFileMergeDialog" timestamp="1594638553392" />
+    <state x="992" y="421" key="MultipleFileMergeDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="1126" y="416" key="RollbackChangesDialog" timestamp="1594638553392" />
+    <state x="1126" y="416" key="RollbackChangesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="781" y="348" key="SettingsEditor" timestamp="1594638553392" />
+    <state x="781" y="348" key="SettingsEditor/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1594638553392" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594638553392" />
+    <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="988" y="393" width="583" height="624" key="find.popup" timestamp="1594638553392" />
+    <state x="988" y="393" width="583" height="624" key="find.popup/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="1061" y="418" key="git4idea.branch.GitSmartOperationDialog" timestamp="1594638553392" />
+    <state x="1061" y="418" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="975" y="600" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1594638553392" />
+    <state x="975" y="600" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="936" y="333" key="run.anything.popup" timestamp="1594638553392" />
+    <state x="936" y="333" key="run.anything.popup/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1594638553392" />
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
   </component>
 </project>

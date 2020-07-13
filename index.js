@@ -15,10 +15,9 @@ app.use(bodyParser.json());
 initialiseCluster()
     .then(() => {
         app.get('/', res => res.sendFile('./index.html'));
-        app.post('/take-web-screenshot', sendWebScreenshot);
-        app.post('/take-cli-screenshot', sendCliScreenshot);
-        app.post('/crawl-url', crawlSitemapEndpoint);
-        app.post('/set-screenshot-page', setScreenshotPageEndpoint)
+        // app.post('/take-web-screenshot', sendWebScreenshot);
+        // app.post('/crawl-url', crawlSitemapEndpoint);
+        // app.post('/set-screenshot-page', setScreenshotPageEndpoint)
     })
 
 app.listen(port, () => console.log(`Site is running on port ${port}`));

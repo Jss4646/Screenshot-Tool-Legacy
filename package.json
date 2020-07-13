@@ -14,6 +14,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/jacksandeman/visual-reggresion-site#readme",
   "dependencies": {
+    "@vercel/node": "^1.7.2",
     "agent-base": "^6.0.0",
     "aws-sdk": "^2.693.0",
     "body-parser": "^1.19.0",

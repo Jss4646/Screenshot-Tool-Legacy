@@ -17,7 +17,7 @@ function getScreenshotsData() {
     let screenshots = Array.from(imageCarousel.children);
     let screenshotsData = [];
     screenshots.forEach(screenshot => {
-        let screenshotData = screenshot.querySelector('.screenshot');
+        let screenshotData = screenshot.querySelector('.screenshot').src;
         screenshotsData.push(screenshotData)
     });
     return screenshotsData
@@ -44,16 +44,10 @@ function generateScreenshotZip(screenshotsData) {
 /**
  * Converts a dataURL to a blob so it can be viewed as a PNG when downloaded
  *
- * @param imageElement
  * @return {Blob}
+ * @param imageUrl
  */
-async function urlToBlob(imageElement) {
-    const canvas = document.createElement('canvas');
-    canvas.width = imageElement.width;
-    canvas.height = imageElement.height;
-    const ctx = canvas.getContext("2d");
-    ctx.drawImage(imageElement, 0, 0);
-    let dataUrl = canvas.toDataURL('image/jpg');
-
-    return new Blob(dataUrl.split(',')[1])
+async function urlToBlob(imageUrl) {
+    let data = await fetch(imageUrl)
+    console.log(data);
 }
