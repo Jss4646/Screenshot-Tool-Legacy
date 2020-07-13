@@ -86,7 +86,7 @@ function getResolutions() {
 function getScreenshotData(resolutionElement) {
     let key = resolutionElement.firstChild.name;
 
-    let cookieData = document.querySelector('.cookie-container > textarea').value
+    let cookieData = document.querySelector('.cookie-container > textarea').value;
     if (cookieData) cookieData = JSON.parse(cookieData);
 
     let jsonData = resolutions[key];
@@ -209,7 +209,7 @@ function displayScreenshot(screenshotData) {
         observer.observe(pageFolder.childNodes[1], {childList: true})
     }
 
-    observer.observe(siteFolder.childNodes[1], {childList: true})
+    observer.observe(siteFolder.childNodes[1], {childList: true});
     statusText.hideText();
 }
 

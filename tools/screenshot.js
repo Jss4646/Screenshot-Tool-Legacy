@@ -9,7 +9,7 @@ const local = {}
 async function initialiseCluster() {
     local.cluster = await Cluster.launch({
         concurrency: Cluster.CONCURRENCY_CONTEXT,
-        maxConcurrency: 1,
+        maxConcurrency: 2,
         retryLimit: 1,
         timeout: 500000,
         puppeteerOptions: {

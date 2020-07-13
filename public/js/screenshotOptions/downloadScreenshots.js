@@ -17,7 +17,7 @@ function getScreenshotsData() {
     let screenshots = Array.from(imageCarousel.children);
     let screenshotsData = [];
     screenshots.forEach(screenshot => {
-        let screenshotData = screenshot.querySelector('.screenshot').src;
+        let screenshotData = screenshot.querySelector('.screenshot');
         screenshotsData.push(screenshotData)
     });
     return screenshotsData
@@ -33,7 +33,7 @@ function generateScreenshotZip(screenshotsData) {
     let screenshotsFolder = zip.folder('screenshots');
 
     screenshotsData.forEach((screenshotData, index) => {
-        let blob = dataURLToBlob(screenshotData);
+        let blob = urlToBlob(screenshotData);
         screenshotsFolder.file(`Screenshot ${index + 1}.png`, blob)
     });
     zip.generateAsync({type: 'blob'})
@@ -44,16 +44,16 @@ function generateScreenshotZip(screenshotsData) {
 /**
  * Converts a dataURL to a blob so it can be viewed as a PNG when downloaded
  *
- * @param dataURL
+ * @param imageElement
  * @return {Blob}
  */
-function dataURLToBlob(dataURL) {
-    let data = atob(dataURL.substring( "data:image/png;base64,".length)),
-        asArray = new Uint8Array(data.length);
+async function urlToBlob(imageElement) {
+    const canvas = document.createElement('canvas');
+    canvas.width = imageElement.width;
+    canvas.height = imageElement.height;
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(imageElement, 0, 0);
+    let dataUrl = canvas.toDataURL('image/jpg');
 
-    for(let i = 0, len = data.length; i < len; ++i) {
-        asArray[i] = data.charCodeAt(i);
-    }
-
-    return new Blob([ asArray.buffer ], {type: "image/png"});
+    return new Blob(dataUrl.split(',')[1])
 }

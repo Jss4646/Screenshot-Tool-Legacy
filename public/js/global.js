@@ -34,8 +34,7 @@ function validateURL(url) {
 
     return (
         inputUrl.host &&
-        inputUrl.host !== window.location.host &&
-        urlComponents[1] === barComponents[1]
+        inputUrl.host !== window.location.host
     );
 }
 
