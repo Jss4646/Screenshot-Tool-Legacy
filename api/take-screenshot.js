@@ -1,4 +1,4 @@
-const { sendWebScreenshot } = require('./tools/screenshot');
+const { sendWebScreenshot } = require('../tools/screenshot');
 
 export default sendWebScreenshot;
 

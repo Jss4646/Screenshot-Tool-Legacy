@@ -13,10 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="added @now/build-utils">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Trying different approach">
       <change beforePath="$PROJECT_DIR$/api/take-screenshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/take-screenshot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,13 +195,6 @@
       <workItem from="1592996050064" duration="8400000" />
       <workItem from="1593092117891" duration="2984000" />
       <workItem from="1593776962171" duration="10165000" />
-    </task>
-    <task id="LOCAL-00038" summary="bitbucket-pipelines testing">
-      <created>1585842248931</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1585842248931</updated>
     </task>
     <task id="LOCAL-00039" summary="bitbucket-pipelines testing">
       <created>1585843343723</created>
@@ -541,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594643245575</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Trying different approach">
+      <created>1594643510662</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1594643510662</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +583,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed folder bug" />
     <MESSAGE value="Add hide folder functionality" />
     <MESSAGE value="Optimized screenshot scrolling" />
     <MESSAGE value="Added styling to small pages" />
@@ -610,7 +607,8 @@
     <MESSAGE value="changed from take-web-screenshot" />
     <MESSAGE value="added /api/" />
     <MESSAGE value="added @now/build-utils" />
-    <option name="LAST_COMMIT_MESSAGE" value="added @now/build-utils" />
+    <MESSAGE value="Trying different approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying different approach" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="364" key="#Deployment" timestamp="1594638553392" />
@@ -701,10 +699,10 @@
     <state x="1126" y="416" key="RollbackChangesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
     <state x="781" y="348" key="SettingsEditor" timestamp="1594638553392" />
     <state x="781" y="348" key="SettingsEditor/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1594643250436">
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1594643513419">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594643250436" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594643513419" />
     <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594638553392" />
     <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1594638553392" />
     <state x="988" y="393" width="583" height="624" key="find.popup" timestamp="1594638553392" />
