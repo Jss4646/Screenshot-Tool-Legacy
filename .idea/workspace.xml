@@ -14,8 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Updated timeout">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2020_23_40_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_06_2020_23_40__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_21_06_2020_23_41_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_21_06_2020_23_41__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/screenshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/screenshot.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +54,13 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.16.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test.js" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.28" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -116,6 +121,7 @@
       <item itemvalue="npm.start-server" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -189,6 +195,7 @@
       <workItem from="1592780494023" duration="5891000" />
       <workItem from="1592996050064" duration="8400000" />
       <workItem from="1593092117891" duration="2984000" />
+      <workItem from="1596494994254" duration="1799000" />
     </task>
     <task id="LOCAL-00034" summary="bitbucket-pipelines testing">
       <created>1585333877545</created>
@@ -537,7 +544,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -605,10 +612,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated timeout" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="364" key="#Deployment" timestamp="1586444569949">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="872" y="364" key="#Deployment/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1586444569949" />
     <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593005058429">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -626,10 +629,6 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1027" y="561" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1591404983780" />
-    <state x="887" y="181" width="1310" height="1144" key="CommitChangelistDialog2" timestamp="1585916014090">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="887" y="181" width="1310" height="1144" key="CommitChangelistDialog2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1585916014090" />
     <state x="2488" y="673" width="2048" height="1155" maximized="true" key="DiffContextDialog" timestamp="1591830288181">
       <screen x="2560" y="497" width="1920" height="1050" />
     </state>
@@ -639,25 +638,29 @@
     </state>
     <state x="1060" y="461" key="FileChooserDialogImpl/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593005057122" />
     <state x="1060" y="461" key="FileChooserDialogImpl/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591890464315" />
-    <state width="2539" height="668" key="GridCell.Tab.0.bottom" timestamp="1593096340527">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="2518" height="404" key="GridCell.Tab.0.bottom" timestamp="1596495084657">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2539" height="668" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593096340527" />
+    <state width="2518" height="404" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1596495084657" />
     <state width="2539" height="445" key="GridCell.Tab.0.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
-    <state width="2539" height="668" key="GridCell.Tab.0.center" timestamp="1593096340527">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="2518" height="404" key="GridCell.Tab.0.center" timestamp="1596495084656">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2539" height="668" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593096340527" />
+    <state width="2518" height="404" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1596495084656" />
     <state width="2539" height="445" key="GridCell.Tab.0.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
-    <state width="2539" height="668" key="GridCell.Tab.0.left" timestamp="1593096340527">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="2518" height="404" key="GridCell.Tab.0.left" timestamp="1596495084655">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2539" height="668" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593096340527" />
+    <state width="2518" height="404" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1596495084655" />
     <state width="2539" height="445" key="GridCell.Tab.0.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
-    <state width="2539" height="668" key="GridCell.Tab.0.right" timestamp="1593096340527">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="2518" height="404" key="GridCell.Tab.0.right" timestamp="1596495084656">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2539" height="668" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593096340527" />
+    <state width="2518" height="404" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1596495084656" />
     <state width="2539" height="445" key="GridCell.Tab.0.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
     <state width="2517" height="439" key="GridCell.Tab.1.bottom" timestamp="1593039173371">
       <screen x="0" y="0" width="2560" height="1410" />
@@ -719,22 +722,10 @@
     </state>
     <state width="2517" height="439" key="GridCell.Tab.3.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593039173372" />
     <state width="2539" height="445" key="GridCell.Tab.3.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970913" />
-    <state x="248" y="128" key="MergeDialog" timestamp="1585324187233">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="248" y="128" key="MergeDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1585324187233" />
-    <state x="992" y="421" key="MultipleFileMergeDialog" timestamp="1585324190402">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="992" y="421" key="MultipleFileMergeDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1585324190402" />
     <state x="1126" y="416" key="RollbackChangesDialog" timestamp="1593008332595">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1126" y="416" key="RollbackChangesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593008332595" />
-    <state x="781" y="348" key="SettingsEditor" timestamp="1586444639725">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="781" y="348" key="SettingsEditor/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1586444639725" />
     <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1593035093271">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
