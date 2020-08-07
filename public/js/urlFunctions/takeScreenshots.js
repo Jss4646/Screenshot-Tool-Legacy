@@ -213,6 +213,8 @@ function displayScreenshot(screenshotData) {
     statusText.hideText();
 }
 
+
+
 /**
  * Creates the html that contains the screenshot and device name
  *
@@ -224,9 +226,23 @@ function createImageContainer(screenshotData) {
     let screenshotContentContainer = document.createElement('div');
     screenshotContentContainer.classList.add('screenshot-content');
 
+    let screenshotHeader = document.createElement('div')
+    screenshotHeader.classList.add('screenshot-header')
+
+    let placeholder = document.createElement('div')
+
     let screenshotResolutionName = document.createElement('h4');
     screenshotResolutionName.classList.add('screenshot-resolution-name');
     screenshotResolutionName.innerText = screenshotData.deviceName;
+
+    let deleteScreenshotElement = document.createElement('img');
+    deleteScreenshotElement.src = 'imgs/exit-icon.png';
+    deleteScreenshotElement.alt = 'delete';
+    deleteScreenshotElement.addEventListener('click', deleteScreenshot)
+
+    screenshotHeader.appendChild(placeholder)
+    screenshotHeader.appendChild(screenshotResolutionName)
+    screenshotHeader.appendChild(deleteScreenshotElement)
 
     let screenshotContainer = document.createElement('div');
     screenshotContainer.classList.add('screenshot-container');
@@ -239,7 +255,7 @@ function createImageContainer(screenshotData) {
 
     screenshotContainer.append(screenshot);
 
-    screenshotContentContainer.append(screenshotResolutionName);
+    screenshotContentContainer.append(screenshotHeader);
     screenshotContentContainer.append(screenshotContainer);
 
     return screenshotContentContainer;
@@ -336,6 +352,9 @@ function updateFolderAmount(mutationList) {
     let folder = mutationList[0].target;
     let folderAmountElement = folder.previousElementSibling.childNodes[1];
     folderAmountElement.innerText = folder.childNodes.length;
+    if (folder.childNodes.length === 0) {
+        folder.parentElement.remove();
+    }
 }
 
 function enlargeScreenshot(event) {
@@ -345,6 +364,10 @@ function enlargeScreenshot(event) {
 
     screenshotInspector.setImage(screenshotSrc, deviceType);
     screenshotInspector.show();
+}
+
+function deleteScreenshot() {
+    this.parentElement.parentElement.remove();
 }
 
 export {takeScreenshots}
