@@ -13,14 +13,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Added credentials as environment variables">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="iframe test">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_11_52__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_11_52__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_04_2020_15_22__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_04_2020_15_22__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credentials.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/bucket-access.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/bucket-access.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/document-screenshots.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/document-screenshots.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/urlFunctions/takeScreenshots.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/urlFunctions/takeScreenshots.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.2" />
     <property name="javascript.nodejs.core.library.typings.version" value="10.17.28" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -73,19 +74,19 @@
     <property name="ts.external.directory.path" value="D:\JetBrains\apps\WebStorm\ch-0\201.7223.93\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/.github/images" />
-      <recent name="E:\Pragmatic\QA Tools\visual-regression-site" />
-      <recent name="E:\Pragmatic\QA Tools\visual-regression-site\public\js\vendor" />
-      <recent name="$PROJECT_DIR$/public/js/screenshotOptions" />
-      <recent name="E:\Pragmatic\QA Tools\public\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Pragmatic\QA Tools\visual-regression-site\public\imgs" />
       <recent name="E:\Pragmatic\QA Tools\visual-regression-site\public\css" />
       <recent name="E:\Pragmatic\QA Tools\visual-regression-site\public\js\vendor" />
       <recent name="E:\Pragmatic\QA Tools\visual-regression-site" />
       <recent name="E:\Pragmatic\QA Tools\visual-regression-site\cypress\integration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Pragmatic\QA Tools\visual-regression-site" />
+      <recent name="E:\Pragmatic\QA Tools\visual-regression-site\public\js\vendor" />
+      <recent name="$PROJECT_DIR$/public/js/screenshotOptions" />
+      <recent name="E:\Pragmatic\QA Tools\public\js" />
+      <recent name="E:\Pragmatic\QA Tools" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start-server">
@@ -113,12 +114,7 @@
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
       <node-interpreter value="project" />
-      <envs>
-        <env name="confluence_password" value="46ZMPy42Dnm6sGNW" />
-        <env name="confluence_username" value="jack.sandeman" />
-        <env name="aws_access_key_id" value="AKIARJLWD3FYMMWLZ7MQ" />
-        <env name="aws_secret_access_key" value="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" />
-      </envs>
+      <envs />
       <method v="2" />
     </configuration>
     <list>
@@ -128,7 +124,6 @@
       <item itemvalue="npm.start-server" />
     </list>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -202,7 +197,15 @@
       <workItem from="1592780494023" duration="5891000" />
       <workItem from="1592996050064" duration="8400000" />
       <workItem from="1593092117891" duration="2984000" />
-      <workItem from="1596494994254" duration="4142000" />
+      <workItem from="1596494994254" duration="1799000" />
+      <workItem from="1596797851220" duration="2738000" />
+    </task>
+    <task id="LOCAL-00034" summary="bitbucket-pipelines testing">
+      <created>1585333877545</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1585333877545</updated>
     </task>
     <task id="LOCAL-00035" summary="bitbucket-pipelines testing">
       <created>1585334590778</created>
@@ -540,18 +543,11 @@
       <option name="project" value="LOCAL" />
       <updated>1593035091901</updated>
     </task>
-    <task id="LOCAL-00083" summary="Added front page image">
-      <created>1596497426411</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1596497426411</updated>
-    </task>
-    <option name="localTasksCounter" value="84" />
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -591,6 +587,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Fixed checkbox bug" />
+    <MESSAGE value="Added more folder support for saving" />
+    <MESSAGE value="Changed to jpg" />
     <MESSAGE value="Added basic folder functionality" />
     <MESSAGE value="Fixed folder bug" />
     <MESSAGE value="Add hide folder functionality" />
@@ -613,23 +612,18 @@
     <MESSAGE value="Updated cluster options" />
     <MESSAGE value="Styling update" />
     <MESSAGE value="Updated timeout" />
-    <MESSAGE value="Added front page image" />
-    <MESSAGE value="Added credentals as enviroment variables" />
-    <MESSAGE value="Added credentials as environment variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added credentials as environment variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated timeout" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="385" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596499181839">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596799604023">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593005058429" />
-    <state x="734" y="385" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1596499181839" />
+    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1596799604023" />
     <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591890466928" />
-    <state x="1044" y="534" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596498878425">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="1044" y="508" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592583485273">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1044" y="508" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1592583485273" />
-    <state x="1044" y="534" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1417@0.23.2560.1417" timestamp="1596498878425" />
     <state x="1010" y="451" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591634857295">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -638,46 +632,38 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1027" y="561" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1591404983780" />
-    <state x="690" y="256" width="1454" height="961" key="CommitChangelistDialog2" timestamp="1596499490497">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="690" y="256" width="1454" height="961" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1596499490497" />
     <state x="2488" y="673" width="2048" height="1155" maximized="true" key="DiffContextDialog" timestamp="1591830288181">
       <screen x="2560" y="497" width="1920" height="1050" />
     </state>
     <state x="2488" y="673" width="2048" height="1155" maximized="true" key="DiffContextDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1591830288181" />
-    <state x="1623" y="365" width="735" height="710" key="EnvironmentVariablesDialog" timestamp="1596499180603">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="1623" y="365" width="735" height="710" key="EnvironmentVariablesDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1596499180603" />
     <state x="1060" y="461" key="FileChooserDialogImpl" timestamp="1593005057122">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1060" y="461" key="FileChooserDialogImpl/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593005057122" />
     <state x="1060" y="461" key="FileChooserDialogImpl/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591890464315" />
-    <state width="2518" height="517" key="GridCell.Tab.0.bottom" timestamp="1596499490547">
+    <state width="2518" height="404" key="GridCell.Tab.0.bottom" timestamp="1596495084657">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2539" height="668" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593096340527" />
-    <state width="2518" height="517" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1596499490547" />
+    <state width="2518" height="404" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1596495084657" />
     <state width="2539" height="445" key="GridCell.Tab.0.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
-    <state width="2518" height="517" key="GridCell.Tab.0.center" timestamp="1596499490546">
+    <state width="2518" height="404" key="GridCell.Tab.0.center" timestamp="1596495084656">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2539" height="668" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593096340527" />
-    <state width="2518" height="517" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1596499490546" />
+    <state width="2518" height="404" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1596495084656" />
     <state width="2539" height="445" key="GridCell.Tab.0.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
-    <state width="2518" height="517" key="GridCell.Tab.0.left" timestamp="1596499490545">
+    <state width="2518" height="404" key="GridCell.Tab.0.left" timestamp="1596495084655">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2539" height="668" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593096340527" />
-    <state width="2518" height="517" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1596499490545" />
+    <state width="2518" height="404" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1596495084655" />
     <state width="2539" height="445" key="GridCell.Tab.0.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
-    <state width="2518" height="517" key="GridCell.Tab.0.right" timestamp="1596499490546">
+    <state width="2518" height="404" key="GridCell.Tab.0.right" timestamp="1596495084656">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2539" height="668" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593096340527" />
-    <state width="2518" height="517" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1596499490546" />
+    <state width="2518" height="404" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1596495084656" />
     <state width="2539" height="445" key="GridCell.Tab.0.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
     <state width="2517" height="439" key="GridCell.Tab.1.bottom" timestamp="1593039173371">
       <screen x="0" y="0" width="2560" height="1410" />
@@ -743,23 +729,14 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1126" y="416" key="RollbackChangesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593008332595" />
-    <state x="789" y="370" key="SettingsEditor" timestamp="1596498473785">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="789" y="370" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1596498473785" />
-    <state x="872" y="463" key="Vcs.Push.Dialog.v2" timestamp="1596497429251">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1593035093271">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593035093271" />
-    <state x="872" y="463" key="Vcs.Push.Dialog.v2/0.23.2560.1417@0.23.2560.1417" timestamp="1596497429251" />
     <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593010836567">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593010836567" />
-    <state x="1089" y="681" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596499199178">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="1089" y="681" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1417@0.23.2560.1417" timestamp="1596499199178" />
     <state x="988" y="393" width="583" height="624" key="find.popup" timestamp="1592409260755">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
