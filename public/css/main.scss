@@ -208,7 +208,7 @@ h4 {
 .screenshot-tools {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 465px;
+  grid-template-rows: 472px;
 
   grid-column: 1 / 3;
   grid-row: 3 / 4;
@@ -315,10 +315,8 @@ h4 {
 
   .carousel-actions {
     height: 50px;
-
-    .download-screenshots {
-      margin: 20px;
-    }
+    margin-top: 10px;
+    margin-left: 10px;
   }
 }
 
