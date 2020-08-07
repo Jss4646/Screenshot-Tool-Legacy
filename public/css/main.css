@@ -261,7 +261,7 @@ h4 {
 .large-screenshot-cover {
   position: absolute;
   width: 100%;
-  height: auto;
+  min-height: 100%;
   display: none;
   align-items: center;
   justify-content: center;
@@ -270,10 +270,13 @@ h4 {
 .large-screenshot-cover .large-screenshot-content {
   width: 90%;
   height: 90%;
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
 .large-screenshot-cover .large-screenshot-content .return-button {
   width: 30px;
   height: 30px;
+  padding-bottom: 10px;
 }
 .large-screenshot-cover .large-screenshot-content .large-screenshot {
   width: 100%;
