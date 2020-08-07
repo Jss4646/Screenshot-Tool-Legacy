@@ -14,14 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="iframe test">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_11_52__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_11_52__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_04_2020_15_22__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_04_2020_15_22__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/urlFunctions/takeScreenshots.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/urlFunctions/takeScreenshots.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +107,12 @@
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
       <node-interpreter value="project" />
-      <envs />
+      <envs>
+        <env name="confluence_password" value="46ZMPy42Dnm6sGNW" />
+        <env name="confluence_username" value="jack.sandeman" />
+        <env name="aws_access_key_id" value="AKIARJLWD3FYMMWLZ7MQ" />
+        <env name="aws_secret_access_key" value="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" />
+      </envs>
       <method v="2" />
     </configuration>
     <list>
@@ -615,10 +613,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated timeout" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596799604023">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="551" y="324" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596807803219">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1596799604023" />
+    <state x="551" y="324" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1596807803219" />
     <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591890466928" />
     <state x="1044" y="508" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592583485273">
       <screen x="0" y="0" width="2560" height="1410" />
@@ -636,33 +635,41 @@
       <screen x="2560" y="497" width="1920" height="1050" />
     </state>
     <state x="2488" y="673" width="2048" height="1155" maximized="true" key="DiffContextDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1591830288181" />
+    <state x="943" y="307" key="EnvironmentVariablesDialog" timestamp="1596807800134">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="943" y="307" key="EnvironmentVariablesDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1596807800134" />
     <state x="1060" y="461" key="FileChooserDialogImpl" timestamp="1593005057122">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1060" y="461" key="FileChooserDialogImpl/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593005057122" />
     <state x="1060" y="461" key="FileChooserDialogImpl/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591890464315" />
-    <state width="2518" height="404" key="GridCell.Tab.0.bottom" timestamp="1596495084657">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1878" height="417" key="GridCell.Tab.0.bottom" timestamp="1596807563891">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="2539" height="668" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593096340527" />
+    <state width="1878" height="417" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1596807563891" />
     <state width="2518" height="404" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1596495084657" />
     <state width="2539" height="445" key="GridCell.Tab.0.bottom/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
-    <state width="2518" height="404" key="GridCell.Tab.0.center" timestamp="1596495084656">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1878" height="417" key="GridCell.Tab.0.center" timestamp="1596807563890">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="2539" height="668" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593096340527" />
+    <state width="1878" height="417" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1596807563890" />
     <state width="2518" height="404" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1596495084656" />
     <state width="2539" height="445" key="GridCell.Tab.0.center/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
-    <state width="2518" height="404" key="GridCell.Tab.0.left" timestamp="1596495084655">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1878" height="417" key="GridCell.Tab.0.left" timestamp="1596807563886">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="2539" height="668" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593096340527" />
+    <state width="1878" height="417" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1596807563886" />
     <state width="2518" height="404" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1596495084655" />
     <state width="2539" height="445" key="GridCell.Tab.0.left/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
-    <state width="2518" height="404" key="GridCell.Tab.0.right" timestamp="1596495084656">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1878" height="417" key="GridCell.Tab.0.right" timestamp="1596807563891">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="2539" height="668" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593096340527" />
+    <state width="1878" height="417" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1596807563891" />
     <state width="2518" height="404" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1596495084656" />
     <state width="2539" height="445" key="GridCell.Tab.0.right/2560.497.1920.1050/2560.-583.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1591899970911" />
     <state width="2517" height="439" key="GridCell.Tab.1.bottom" timestamp="1593039173371">
@@ -729,10 +736,11 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1126" y="416" key="RollbackChangesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593008332595" />
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1593035093271">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="654" y="389" key="Vcs.Push.Dialog.v2" timestamp="1596807453401">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593035093271" />
+    <state x="654" y="389" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1596807453401" />
     <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593010836567">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
