@@ -1,4 +1,4 @@
-import {urlList} from '../screenshotOptions/urlList.js'
+import {urlList} from '../screenshotOptions/url-list.js'
 const crawlUrlButton = document.querySelector('#crawl-url');
 
 crawlUrlButton.addEventListener('click', () => {

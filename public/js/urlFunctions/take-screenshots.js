@@ -1,7 +1,7 @@
 import resolutions from '../../resolutionsJson.js'
-import {screenshotInspector} from '../misc/screenshotInspector.js';
-import {disableButtonCheck} from "../screenshotOptions/urlList.js";
-import {urlList} from "../screenshotOptions/urlList.js";
+import {screenshotInspector} from '../misc/screenshot-inspector.js';
+import {disableButtonCheck} from "../screenshotOptions/url-list.js";
+import {urlList} from "../screenshotOptions/url-list.js";
 
 function onUrlBarEnterPress(event) {
     if (event.keyCode === 13) {

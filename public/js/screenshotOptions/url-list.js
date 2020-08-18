@@ -1,4 +1,4 @@
-import {takeScreenshots} from '../urlFunctions/takeScreenshots.js'
+import {takeScreenshots} from '../urlFunctions/take-screenshots.js'
 
 const urlListElement = document.querySelector('.url-list');
 let screenshotQueue = []

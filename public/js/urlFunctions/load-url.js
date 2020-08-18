@@ -1,4 +1,4 @@
-import {urlList} from '../screenshotOptions/urlList.js'
+import {urlList} from '../screenshotOptions/url-list.js'
 
 const loadUrlsButton = document.querySelector('#load-urls');
 const uploadFileButton = document.querySelector('#file');
