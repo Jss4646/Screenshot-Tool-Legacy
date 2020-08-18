@@ -98,6 +98,7 @@ class UrlList {
         let urlArrayElements = Array.from(urlListElement.children);
         urlArrayElements.forEach(url => url.remove());
         takeScreenshotsButton.disabled = true;
+        saveToFileButton.disabled = true;
     }
 
     getUrlElements() {
@@ -111,6 +112,7 @@ class UrlList {
 }
 
 const clearUrlButton = document.querySelector('.clear-urls');
+const saveToFileButton = document.querySelector('.save-to-file');
 
 clearUrlButton.addEventListener('click', () => {
    urlList.clearUrls();
@@ -120,6 +122,7 @@ clearUrlButton.addEventListener('click', () => {
 export function disableButtonCheck() {
     takeScreenshotsButton.disabled = urlListElement.childElementCount <= 0;
     clearUrlButton.disabled = urlListElement.childElementCount <= 0;
+    saveToFileButton.disabled = urlListElement.childElementCount <= 0;
 }
 
 export const urlList = new UrlList();
