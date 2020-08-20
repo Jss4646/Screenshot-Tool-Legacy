@@ -4,7 +4,6 @@
 
 const screenshotButton = document.querySelector('#take-screenshot');
 const removeScreenshotsButton = document.querySelector('.remove-screenshots');
-const downloadButton = document.querySelector('.download-screenshots');
 const takeScreenshotsButton = document.querySelector('.take-screenshots');
 
 const screenshotCarousel = document.querySelector('.screenshot-carousel');

@@ -168,7 +168,6 @@ function generateScreenshot(inputUrl, screenshotData) {
 
 function changeButtonStates() {
     screenshotButton.disabled = false;
-    downloadButton.disabled = false;
     removeScreenshotsButton.disabled = false;
     disableButtonCheck();
 }
