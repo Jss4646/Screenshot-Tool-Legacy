@@ -23,19 +23,12 @@ function getURL() {
  * @returns {""|boolean}
  */
 function validateURL(url) {
-    let inputUrl = document.createElement('a');
-    inputUrl.href = url;
-    let urlComponents = inputUrl.host.split('.');
-
-    let barUrl = document.createElement('a');
-    barUrl.href = getURL();
-    let barComponents = barUrl.host.split('.');
-
-    return (
-        inputUrl.host &&
-        inputUrl.host !== window.location.host &&
-        urlComponents[1] === barComponents[1]
-    );
+    try {
+        new URL(url);
+    } catch (TypeError) {
+        return false;
+    }
+    return true;
 }
 
 function createJsonPostData (body) {
