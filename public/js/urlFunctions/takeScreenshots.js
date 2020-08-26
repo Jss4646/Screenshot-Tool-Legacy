@@ -37,9 +37,11 @@ function takeScreenshots(inputUrl) {
         statusText.displayText('Please enter a valid URL');
         console.log(`Invalid URL: ${inputUrl}`);
         screenshotButton.disabled = false;
+        takeScreenshotsButton.disabled = false;
     } else if (resolutions.length === 0) {
         statusText.displayText('Please select at least one resolution');
         screenshotButton.disabled = false;
+        takeScreenshotsButton.disabled = false;
     } else {
         generateScreenshots(inputUrl, resolutions);
     }
