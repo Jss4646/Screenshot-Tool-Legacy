@@ -13,12 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="First screenshot tests">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/cypress.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/integration/crawl-url.spec.js" afterDir="false" />
+    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Added crawler tests and workflow">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/cypress.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cypress.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/screenshot-tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/screenshot.spec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,14 +199,7 @@
       <workItem from="1596494994254" duration="1799000" />
       <workItem from="1596797851220" duration="2738000" />
       <workItem from="1598196413373" duration="3059000" />
-      <workItem from="1598445884216" duration="1871000" />
-    </task>
-    <task id="LOCAL-00037" summary="bitbucket-pipelines testing">
-      <created>1585841412642</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1585841412642</updated>
+      <workItem from="1598445884216" duration="2265000" />
     </task>
     <task id="LOCAL-00038" summary="bitbucket-pipelines testing">
       <created>1585842248931</created>
@@ -547,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598051553596</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Added crawler tests and workflow">
+      <created>1598454348598</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1598454348598</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +588,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added basic folder functionality" />
     <MESSAGE value="Fixed folder bug" />
     <MESSAGE value="Add hide folder functionality" />
     <MESSAGE value="Optimized screenshot scrolling" />
@@ -616,7 +612,8 @@
     <MESSAGE value="Fixed env variable issue" />
     <MESSAGE value="Updated styling to large screenshot cover" />
     <MESSAGE value="First screenshot tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="First screenshot tests" />
+    <MESSAGE value="Added crawler tests and workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added crawler tests and workflow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="324" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596807803219">
@@ -763,10 +760,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1126" y="416" key="RollbackChangesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593008332595" />
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1598054755478">
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1598454351272">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1598054755478" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1598454351272" />
     <state x="654" y="389" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1596809251017" />
     <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593010836567">
       <screen x="0" y="0" width="2560" height="1410" />
