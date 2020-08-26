@@ -11,10 +11,10 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         env:
-          confluence_password: "46ZMPy42Dnm6sGNW"
-          confluence_username: "jack.sandeman"
-          aws_access_key_id: "AKIARJLWD3FYMMWLZ7MQ"
-          aws_secret_access_key: "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"
+          confluence_password: ${{ secrets.CONFLUENCE_PASSWORD }}
+          confluence_username: ${{ secrets.CONFLUENCE_USERNAME }}
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         with:
           start: npm start
           wait-on: 'http://localhost:3000'

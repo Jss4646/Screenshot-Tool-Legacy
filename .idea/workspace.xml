@@ -15,6 +15,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Workflow update">
       <change beforePath="$PROJECT_DIR$/.github/workflows/cypress.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cypress.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,14 +199,7 @@
       <workItem from="1596494994254" duration="1799000" />
       <workItem from="1596797851220" duration="2738000" />
       <workItem from="1598196413373" duration="3059000" />
-      <workItem from="1598445884216" duration="3431000" />
-    </task>
-    <task id="LOCAL-00042" summary="bitbucket-pipelines testing">
-      <created>1585844350866</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1585844350866</updated>
+      <workItem from="1598445884216" duration="3738000" />
     </task>
     <task id="LOCAL-00043" summary="bitbucket-pipelines testing">
       <created>1585844582222</created>
@@ -543,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598455681918</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Workflow update">
+      <created>1598455903754</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1598455903754</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -760,10 +761,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1126" y="416" key="RollbackChangesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593008332595" />
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1598455683215">
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1598455904594">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1598455683215" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1598455904594" />
     <state x="654" y="389" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1596809251017" />
     <state x="92" y="92" width="2376" height="1226" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593010836567">
       <screen x="0" y="0" width="2560" height="1410" />
