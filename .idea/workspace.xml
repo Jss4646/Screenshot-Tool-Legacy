@@ -14,7 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Workflow update">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/cypress.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cypress.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,8 +118,8 @@
     </configuration>
     <list>
       <item itemvalue="Attach to Node.js/Chrome.index" />
-      <item itemvalue="Node.js.test.js" />
       <item itemvalue="Node.js.document-screenshots.js" />
+      <item itemvalue="Node.js.test.js" />
       <item itemvalue="npm.start-server" />
     </list>
   </component>
