@@ -13,15 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Workflow update">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8f203e83-d8d1-4cb3-81e7-ee6bc2780edb" name="Default Changelist" comment="Screenshot api test">
       <change beforePath="$PROJECT_DIR$/api/take-screenshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/take-screenshot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/screenshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/screenshot.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,13 +199,6 @@
       <workItem from="1596797851220" duration="2738000" />
       <workItem from="1598196413373" duration="3059000" />
       <workItem from="1598445884216" duration="3738000" />
-    </task>
-    <task id="LOCAL-00043" summary="bitbucket-pipelines testing">
-      <created>1585844582222</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1585844582222</updated>
     </task>
     <task id="LOCAL-00044" summary="bitbucket-pipelines testing">
       <created>1585844785060</created>
@@ -550,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598455903754</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Screenshot api test">
+      <created>1599226341918</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1599226341919</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +587,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add hide folder functionality" />
     <MESSAGE value="Optimized screenshot scrolling" />
     <MESSAGE value="Added styling to small pages" />
     <MESSAGE value="Fixed button position" />
@@ -619,7 +611,8 @@
     <MESSAGE value="First screenshot tests" />
     <MESSAGE value="Added crawler tests and workflow" />
     <MESSAGE value="Workflow update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workflow update" />
+    <MESSAGE value="Screenshot api test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Screenshot api test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598455432448">
@@ -767,10 +760,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1126" y="416" key="RollbackChangesDialog/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1593008332595" />
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1598455904594">
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1599226343092">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1598455904594" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-583.1920.1050/2560.497.1920.1050@0.0.2560.1410" timestamp="1599226343092" />
     <state x="654" y="389" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1596809251017" />
     <state x="1000" y="356" key="VcsDiffUtil.ChangesDialog" timestamp="1599225796130">
       <screen x="0" y="0" width="2560" height="1410" />

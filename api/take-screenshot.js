@@ -5,7 +5,7 @@ export default async function takeScreenshot(req, res) {
     const screenshotData = req.body;
 
     let screenshotUrl = await screenshotApiClient
-        .getUrlOfScreenshot({
+        .getURLOfScreenshot({
             url: url,
             fresh: true,
             width: 1920,
