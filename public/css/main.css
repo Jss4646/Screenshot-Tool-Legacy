@@ -175,7 +175,7 @@ h4 {
 .screenshot-tools {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 465px;
+  grid-template-rows: 472px;
   grid-column: 1/3;
   grid-row: 3/4;
 }
@@ -215,11 +215,20 @@ h4 {
   will-change: scroll-position;
 }
 .screenshot-tools .screenshot-carousel .site .page .screenshots .screenshot-content {
-  height: 373px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+}
+.screenshot-tools .screenshot-carousel .site .page .screenshots .screenshot-content .screenshot-header {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.screenshot-tools .screenshot-carousel .site .page .screenshots .screenshot-content .screenshot-header img {
+  height: 15px;
 }
 .screenshot-tools .screenshot-carousel .site .page .screenshots .screenshot-content .screenshot-resolution-name {
   margin: 0 0 0 8px;
@@ -243,15 +252,14 @@ h4 {
 }
 .screenshot-tools .carousel-actions {
   height: 50px;
-}
-.screenshot-tools .carousel-actions .download-screenshots {
-  margin: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .large-screenshot-cover {
   position: absolute;
   width: 100%;
-  height: auto;
+  min-height: 100%;
   display: none;
   align-items: center;
   justify-content: center;
@@ -260,10 +268,13 @@ h4 {
 .large-screenshot-cover .large-screenshot-content {
   width: 90%;
   height: 90%;
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
 .large-screenshot-cover .large-screenshot-content .return-button {
   width: 30px;
   height: 30px;
+  padding-bottom: 10px;
 }
 .large-screenshot-cover .large-screenshot-content .large-screenshot {
   width: 100%;

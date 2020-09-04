@@ -4,7 +4,6 @@
 
 const screenshotButton = document.querySelector('#take-screenshot');
 const removeScreenshotsButton = document.querySelector('.remove-screenshots');
-const downloadButton = document.querySelector('.download-screenshots');
 const takeScreenshotsButton = document.querySelector('.take-screenshots');
 
 const screenshotCarousel = document.querySelector('.screenshot-carousel');
@@ -24,18 +23,12 @@ function getURL() {
  * @returns {""|boolean}
  */
 function validateURL(url) {
-    let inputUrl = document.createElement('a');
-    inputUrl.href = url;
-    let urlComponents = inputUrl.host.split('.');
-
-    let barUrl = document.createElement('a');
-    barUrl.href = getURL();
-    let barComponents = barUrl.host.split('.');
-
-    return (
-        inputUrl.host &&
-        inputUrl.host !== window.location.host
-    );
+    try {
+        new URL(url);
+    } catch (TypeError) {
+        return false;
+    }
+    return true;
 }
 
 function createJsonPostData (body) {

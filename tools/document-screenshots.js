@@ -1,8 +1,8 @@
 const url = require('url');
 const Confluence = require("confluence-api");
 const config = {
-    username: "jack.sandeman",
-    password: "46ZMPy42Dnm6sGNW",
+    username: process.env.confluence_username || 'username',
+    password: process.env.confluence_password || 'password',
     baseUrl:  "https://confluence.pragmatic.agency/",
 };
 
