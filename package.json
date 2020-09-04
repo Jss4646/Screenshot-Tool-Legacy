@@ -14,6 +14,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/jacksandeman/visual-reggresion-site#readme",
   "dependencies": {
+    "@vercel/node": "^1.8.1",
     "agent-base": "^6.0.0",
     "aws-sdk": "^2.693.0",
     "body-parser": "^1.19.0",
@@ -28,6 +29,7 @@
     "puppeteer": "^2.1.1",
     "puppeteer-cluster": "^0.21.0",
     "sass": "^1.25.0",
+    "screenshotapi.net": "^1.0.4",
     "simplecrawler": "^1.1.8",
     "sitemap-stream-parser": "^1.7.0",
     "valid-url": "^1.0.9",
